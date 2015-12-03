@@ -1,0 +1,43 @@
+{
+    "happy.browse": "You are using an outdated browser",
+    "happy.browse.link": "Upgrade your browser today",
+
+    "form.submit": "Submit",
+    "form.add": "Add",
+    "form.delete": "Delete",
+    "form.update": "Update",
+    "form.cancel": "Cancel",
+
+    "table.individual.filter.placeholder" : "Filter",
+    "table.nb.of.items": "Nb. of items",
+    "table.refine": "Refine",
+    "table.add.row": "Add row",
+    "table.number.results": "Number of results:",
+    "table.number.results.empty": "No results",
+    "table.hidable.columns": "Hide columns",
+    "table.no.data": "No element to display with the selected filter",
+    "table.loading": "Loading...",
+    "graph.switch.axis": "Switch axis",
+    "graph.export.csv": "EXPORT CSV",
+
+    "confirmation.message.title": "Confirmation",
+    "confirmation.message.leaving.page": "Are you sure to leave the page without saving your changes?",
+    "confirmation.button.leaving.page.continue": "Cancel my changes and leave the page",
+    "confirmation.button.leaving.page.stay": "Stay on this page",
+
+    "validation.error" : "Validation",
+    "validation.error.required.field": "{{field}} is a mandatory field",
+    "validation.error.custom.validation.field": "{{field}} is not a correct value for the column {{index}}",
+    "validation.error.required": "Mandatory field",
+    "validation.error.date.after": "Period from date shall be older than period to date.",
+    "validation.error.pattern": "For the field {{field}}, the pattern {{pattern}} is expected",
+    "validation.error.decimal": "The field {{field}} required a decimal",
+    "validation.error.decimal.positive": "The field {{field}} required a positive decimal",
+    "validation.error.length": "The field {{field}} has a maximum characters length of {{length}}",
+
+    "no": "No",
+    "yes": "Yes",
+    "undefined": "Undefined",
+
+    "filter": "Type a text to filter"
+}

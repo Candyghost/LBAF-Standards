@@ -1,0 +1,18 @@
+<br/>
+
+<div class="panel panel-form">
+    <div class="panel-heading">Fake Authentication</div>
+    <div class="panel-body">
+        <span class="icon icon-profile pull-right icon-x5"></span>
+        <p style="color: red"><strong>Only in Dev & Stub mode</strong></p>
+        <p><strong>Choose a kind of user :</strong></p>
+    </div>
+
+    <ul class="list-group">
+        <li class="list-group-item" ng-repeat="role in roles">
+            <a href ng-click="loadMe(role)" id="{{role}}">
+                {{role}}
+            </a>
+        </li>
+    </ul>
+</div>

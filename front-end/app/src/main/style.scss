@@ -1,0 +1,16 @@
+@import "main";
+@import "fix-chameleon";
+@import "animation";
+// Modules
+@import "../../bower_components/efactory-angular-modules/app-dialog/style";
+@import "../../bower_components/efactory-angular-modules/app-notification/style";
+@import "../../bower_components/efactory-angular-modules/app-table/style";
+@import "../../bower_components/efactory-angular-modules/app-graph/style";
+@import "../../bower_components/efactory-angular-modules/app-selectgroup/style";
+
+// Content
+div.container {
+  div.keycopter-home {
+    @import "keycopter/content/home/style";
+  }
+}

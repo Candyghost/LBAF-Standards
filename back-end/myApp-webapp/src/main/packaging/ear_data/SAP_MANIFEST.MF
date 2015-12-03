@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Ext-SDM-SDA-Comp-Version: 1
+softwaretype: J2EE
+JarSAP-Version: ${buildtimestamp}.1800
+JarSAPProcessing-Version: ${buildtimestamp}.1800
+deployfile: sda-dd.xml
+keyname: ${application.context}
+keyvendor: eurocopter.corp
+keylocation: localhost
+keycounter: ${buildtimestampfull}
+componentelement: <componentelement  name="${application.context}" vendor="eurocopter.corp" componenttype="DC" subsystem="NO_SUBSYS" location="localhost" counter="${buildtimestampfull}" deltaversion="F" updateversion="${project.version}" componentprovider="SAP AG"/> 
+JarSL-Version: ${buildtimestamp}.1516
+compress: true
+

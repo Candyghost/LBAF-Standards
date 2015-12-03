@@ -1,0 +1,58 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/manuals/mrbr"
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "manuals": [
+            {
+                "key": 1,
+                "identifier": "Identifier 1",
+                "revisionNumber": "RevisionNumber 1",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/manuals/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "identifier": "Identifier 2",
+                "revisionNumber": "RevisionNumber 2",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/manuals/2"
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "identifier": "Identifier 3",
+                "revisionNumber": "RevisionNumber 3",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mrbr/3"
+                    }
+                }
+            },
+            {
+                "key": 4,
+                "identifier": "Identifier 4",
+                "revisionNumber": "RevisionNumber 4",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mrbr/4"
+                    }
+                }
+            }
+        ]
+    }
+}

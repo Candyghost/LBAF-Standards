@@ -1,0 +1,58 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "ref-data": [
+            {
+                "key": 47,
+                "label": "REPORT TYPE 1",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/47"
+                    }
+                }
+            },
+            {
+                "key": 48,
+                "label": "REPORT TYPE 2",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/48"
+                    }
+                }
+            },
+            {
+                "key": 49,
+                "label": "REPORT TYPE 3",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/49"
+                    }
+                }
+            },
+            {
+                "key": 50,
+                "label": "REPORT TYPE 4",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/50"
+                    }
+                }
+            }
+        ]
+    }
+}

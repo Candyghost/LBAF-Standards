@@ -1,0 +1,148 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "ref-data": [
+            {
+                "key": 1,
+                "label": "Damage",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "label": "Leak",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/2"
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "label": "Failure",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/3"
+                    }
+                }
+            },
+            {
+                "key": 4,
+                "label": "Loss of torque",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/4"
+                    }
+                }
+            },
+            {
+                "key": 5,
+                "label": "Power Loss",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/5"
+                    }
+                }
+            },
+            {
+                "key": 6,
+                "label": "Pressure Drop",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/6"
+                    }
+                }
+            },
+            {
+                "key": 7,
+                "label": "No fault found",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/7"
+                    }
+                }
+            },
+            {
+                "key": 8,
+                "label": "Out of limit / tolerance",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/9"
+                    }
+                }
+            },
+            {
+                "key": 9,
+                "label": "Over heating",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/9"
+                    }
+                }
+            },
+            {
+                "key": 10,
+                "label": "Overspeed",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/10"
+                    }
+                }
+            },
+            {
+                "key": 11,
+                "label": "Overtorque",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/11"
+                    }
+                }
+            },
+            {
+                "key": 12,
+                "label": "Pressure",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/12"
+                    }
+                }
+            },
+            {
+                "key": 13,
+                "label": "Intermittent",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/13"
+                    }
+                }
+            },
+            {
+                "key": 14,
+                "label": "Play",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/14"
+                    }
+                }
+            }
+        ]
+    }
+}

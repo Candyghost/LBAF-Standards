@@ -1,0 +1,58 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/report-types"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/report-types",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "reportTypes": [
+            {
+                "key": 47,
+                "name": "REPORT TYPE 1",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/report-types/47"
+                    }
+                }
+            },
+            {
+                "key": 48,
+                "name": "REPORT TYPE 2",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/report-types/48"
+                    }
+                }
+            },
+            {
+                "key": 49,
+                "name": "REPORT TYPE 3",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/report-types/49"
+                    }
+                }
+            },
+            {
+                "key": 50,
+                "name": "REPORT TYPE 4",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/report-types/50"
+                    }
+                }
+            }
+        ]
+    }
+}

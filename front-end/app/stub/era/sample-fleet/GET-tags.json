@@ -1,0 +1,25 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/efactory-rest-api/efactory/rest/api/sample-fleets"
+        },
+        "efact:tags": {
+            "href": "http://localhost:8080/efactory-rest-api/efactory/rest/api/sample-fleets/tags"
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/rest-api-webapp/efactory/rest/api/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "sampleFleetTags": [
+            {
+                "key": 11,
+                "label": "test"
+            }
+        ]
+    }
+}

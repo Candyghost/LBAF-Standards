@@ -1,0 +1,58 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/airworthiness-directive"
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "airworthinessDirectives": [
+            {
+                "key": 1,
+                "identifier": "AD 1",
+                "title": "AD title 1",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/airworthiness-directive/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "identifier": "AD 2",
+                "title": "AD title 2",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/airworthiness-directive/2"
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "identifier": "AD 3",
+                "title": "AD title 3",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/airworthiness-directive/3"
+                    }
+                }
+            },
+            {
+                "key": 4,
+                "identifier": "AD 4",
+                "title": "AD title 4",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/airworthiness-directive/4"
+                    }
+                }
+            }
+        ]
+    }
+}

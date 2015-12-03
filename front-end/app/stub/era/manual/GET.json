@@ -1,0 +1,48 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/manual"
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "manuals": [
+            {
+                "key": 1,
+                "type": "MSM",
+                "identifier": "MAN-MSM-01",
+                "revisionNumber": 1,
+                "revisionDate": 1401573600000,
+                "issuedOn": 1401573600000,
+                "title": "Manual for MSM",
+                "description": "MSM manual description",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/manual/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "type": "MRBR",
+                "identifier": "MAN-MRBR-02",
+                "revisionNumber": 1,
+                "revisionDate": 1401573600000,
+                "issuedOn": 1401573600000,
+                "title": "Manual for MRBR",
+                "description": "MRBR manual description",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/manual/2"
+                    }
+                }
+            }
+        ]
+    }
+}

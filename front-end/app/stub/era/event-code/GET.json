@@ -1,0 +1,148 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "eventCodes": [
+            {
+                "key": 1,
+                "name": "Damage",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "name": "Leak",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes/2"
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "name": "Failure",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes/3"
+                    }
+                }
+            },
+            {
+                "key": 4,
+                "name": "Loss of torque",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes/4"
+                    }
+                }
+            },
+            {
+                "key": 5,
+                "name": "Power Loss",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes/5"
+                    }
+                }
+            },
+            {
+                "key": 6,
+                "name": "Pressure Drop",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes/6"
+                    }
+                }
+            },
+            {
+                "key": 7,
+                "name": "No fault found",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes/7"
+                    }
+                }
+            },
+            {
+                "key": 8,
+                "name": "Out of limit / tolerance",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes/9"
+                    }
+                }
+            },
+            {
+                "key": 9,
+                "name": "Over heating",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes/9"
+                    }
+                }
+            },
+            {
+                "key": 10,
+                "name": "Overspeed",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes/10"
+                    }
+                }
+            },
+            {
+                "key": 11,
+                "name": "Overtorque",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes/11"
+                    }
+                }
+            },
+            {
+                "key": 12,
+                "name": "Pressure",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes/12"
+                    }
+                }
+            },
+            {
+                "key": 13,
+                "name": "Intermittent",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes/13"
+                    }
+                }
+            },
+            {
+                "key": 14,
+                "name": "Play",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes/14"
+                    }
+                }
+            }
+        ]
+    }
+}

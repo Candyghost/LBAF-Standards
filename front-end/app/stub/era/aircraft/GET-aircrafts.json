@@ -1,0 +1,58 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "aircrafts": [
+            {
+                "key": 1,
+                "sn": "SN1",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "sn": "SN2",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/2"
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "sn": "SN3",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/3"
+                    }
+                }
+            },
+            {
+                "key": 4,
+                "sn": "SN4",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/4"
+                    }
+                }
+            }
+        ]
+    }
+}

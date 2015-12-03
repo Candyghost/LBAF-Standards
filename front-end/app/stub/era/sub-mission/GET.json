@@ -1,0 +1,45 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/sub-mission"
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "subMissions": [
+            {
+                "key": 1,
+                "name": "Law Enforcement",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/sub-mission/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "name": "Charter",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/sub-mission/2"
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "name": "Parapublic VIP Transport",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/sub-mission/3"
+                    }
+                }
+            }
+        ]
+    }
+}

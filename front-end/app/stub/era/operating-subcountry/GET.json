@@ -1,0 +1,121 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-subcountry"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-subcountry",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "operatingSubCountries": [
+            {
+                "key": 1,
+                "name": "SubCountry 1",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-subcountry/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "name": "SubCountry 2",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-subcountry/2"
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "name": "SubCountry 3",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-subcountry/3"
+                    }
+                }
+            },
+            {
+                "key": 4,
+                "name": "SubCountry 4",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-subcountry/4"
+                    }
+                }
+            },
+            {
+                "key": 5,
+                "name": "SubCountry 5",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-subcountry/5"
+                    }
+                }
+            },
+            {
+                "key": 6,
+                "name": "SubCountry 6",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-subcountry/6"
+                    }
+                }
+            },
+            {
+                "key": 7,
+                "name": "SubCountry 7",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-subcountry/7"
+                    }
+                }
+            },
+            {
+                "key": 8,
+                "name": "SubCountry 8",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-subcountry/8"
+                    }
+                }
+            },
+            {
+                "key": 9,
+                "name": "SubCountry 9",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-subcountry/9"
+                    }
+                }
+            },
+            {
+                "key": 10,
+                "name": "SubCountry 10",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-subcountry/10"
+                    }
+                }
+            },
+            {
+                "key": 11,
+                "name": "SubCountry 11",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-subcountry/11"
+                    }
+                }
+            }
+        ]
+    }
+}

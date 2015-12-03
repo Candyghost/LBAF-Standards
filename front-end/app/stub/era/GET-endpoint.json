@@ -1,0 +1,182 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/"
+        },
+        "efact:aircraftusage": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusages{?q,from,to,fleettypeplus*,fleetversionplus*,fleetoperatorplus*,fleetfhplus*,fleetageplus*,fleetmissionplus*,fleetsubmissionplus*,fleetmisplus*,fleetcyclesplus*,fleetflightplus*,fleetstatusplus*,fleetutilisationplus*,fleetconditionplus*,fleettemperatureplus*,fleetsubcountryplus*,fleetcountryplus*,configurationinformationplus*,configurationadplus*,configurationsbplus*,configurationmpnplus*,dataompRefplus*,dataompTaskplus*,datamsmRefplus*,datamsmTaskplus*,datamrbrRefplus*,datamrbrTaskplus*,dataeventplus*,datampnFindingplus*,datamsmplus*,datampnCorrectiveplus*,dataataFindingplus*,dataataCorrectiveplus*,dataconfirmedFindingplus*,datareportTypeplus*,dataeventTypeplus*,dataeventCodeplus*,datafindingCodeplus*,configurationmpnminus*,configurationsbminus*,dataeventminus*,datampnFindingminus*,datamsmminus*,datampnCorrectiveminus}{/key}",
+            "templated": true
+        },
+        "efact:aircraft": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts{?acTypes*,company_id*,countries*}{/key}",
+            "templated": true
+        },
+        "efact:businessunit": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/businessunits{?staffMemberId,companyId}{/key}",
+            "templated": true
+        },
+        "efact:degradation": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/degradationtypes{?q,lang,status}{/key}",
+            "templated": true
+        },
+        "efact:fault": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/faulttypes{?q,lang,status}{/key}",
+            "templated": true
+        },
+        "efact:failurewarningcode": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/failurewarningcodes{?q,lang,status,aircrafttypeid}{/key}",
+            "templated": true
+        },
+        "efact:flightphase": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/flightphases{?q,lang,status}{/key}",
+            "templated": true
+        },
+        "efact:flightnature": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/flightnatures{?q,lang,status}{/key}",
+            "templated": true
+        },
+        "efact:runway": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/runways{?q,lang,status}{/key}",
+            "templated": true
+        },
+        "efact:cloudcondition": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/cloudconditions{?q,lang,status}{/key}",
+            "templated": true
+        },
+        "efact:met": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mets{?q,lang,status}{/key}",
+            "templated": true
+        },
+        "efact:rainingstate": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/rainingstates{?q,lang,status}{/key}",
+            "templated": true
+        },
+        "efact:company": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/companies{?q,status,contact,actype,search_deep,company_type,buah_id}{/key}",
+            "templated": true
+        },
+        "efact:contact": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/contacts{?q,status,emails}{/key}",
+            "templated": true
+        },
+        "efact:actypeotds": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/actypesotds{?q,operators*,countries*}{/key}",
+            "templated": true
+        },
+        "efact:inspectiontype": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/inspectiontypes{?q,lang,status}{/key}",
+            "templated": true
+        },
+        "efact:weathertype": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/weathertypes{?q,lang,status}",
+            "templated": true
+        },
+        "efact:weatherlevel": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/weatherlevels{?q,lang,status}",
+            "templated": true
+        },
+        "efact:refdata": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ref-data",
+            "templated": true
+        },
+        "efact:actioncode": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/action-codes",
+            "templated": true
+        },
+        "efact:eventcode": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-codes",
+            "templated": true
+        },
+        "efact:eventtype": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/event-types",
+            "templated": true
+        },
+        "efact:findingcode": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes",
+            "templated": true
+        },
+        "efact:reporttype": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/report-types",
+            "templated": true
+        },
+        "efact:sample-fleet": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/sample-fleets{?q*}{/key}{/ac}",
+            "templated": true
+        },
+        "efact:mission": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/missions",
+            "templated": true
+        },
+        "efact:sub-mission": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/sub-missions",
+            "templated": true
+        },
+        "efact:operating-country": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-countries{?q,operators*}",
+            "templated": true
+        },
+        "efact:operating-subcountry": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-subcountries{?q,operators*}",
+            "templated": true
+        },
+        "efact:temperatureCondition": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/temperatureConditions",
+            "templated": true
+        },
+        "efact:environmentalCondition": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/environmentalConditions",
+            "templated": true
+        },
+        "efact:ac-status": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ac-status",
+            "templated": true
+        },
+        "efact:mpn": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn{?restriction}",
+            "templated": true
+        },
+        "efact:service-bulletin": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/service-bulletins",
+            "templated": true
+        },
+        "efact:airworthiness-directive": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/airworthiness-directives",
+            "templated": true
+        },
+        "efact:manual": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/manuals{?q,operators*,countries*,acTypes*,aircrafts*,manualTypes*}",
+            "templated": true
+        },
+        "efact:task": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks{?q,manual,manualTypes*,ata*,linkedto}",
+            "templated": true
+        },
+        "efact:omp": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/omp",
+            "templated": true
+        },
+        "efact:msm": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/msm",
+            "templated": true
+        },
+        "efact:mrbr": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mrbr",
+            "templated": true
+        },
+        "efact:ata": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata{?q,restriction}",
+            "templated": true
+        },
+        "efact:partposition": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/partpositions",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    }
+}

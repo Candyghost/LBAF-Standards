@@ -1,0 +1,36 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/environmentalConditions"
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "environmentalConditions": [
+            {
+                "key": 1,
+                "label": "Salt-laden atmosphere",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/environmentalConditions/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "label": "Sand & Dust-laden atmosphere",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/environmentalConditions/2"
+                    }
+                }
+            }
+        ]
+    }
+}

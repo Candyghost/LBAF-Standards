@@ -1,0 +1,6075 @@
+{"_links": {
+    "self": {
+        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas"
+    },
+    "efact:filter": {
+        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas{?q,format,restriction}",
+        "templated": true
+    },
+    "curies": [
+        {
+            "href": "http://localhost:8080/rest-api-webapp/efactory/rest/api/{rel}",
+            "name": "efact",
+            "templated": true
+        }
+    ]
+}, "_embedded": {
+    "atas": [
+        {
+            "key": 10531,
+            "code": "00",
+            "label": "AIR VEHICLE GENERAL",
+            "subatas": [
+                {
+                    "key": 10541,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 10551,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 10561,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 10571,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 10581,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 10591,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 10601,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 10611,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 10621,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 10631,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/10531"
+                }
+            }
+        },
+        {
+            "key": 10641,
+            "code": "01",
+            "label": "GROUND TESTS",
+            "subatas": [
+                {
+                    "key": 10651,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 10661,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 10671,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 10681,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 10691,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 10701,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 10711,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 10721,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 10731,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 10741,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/10641"
+                }
+            }
+        },
+        {
+            "key": 10751,
+            "code": "02",
+            "label": "FLIGHT TESTS & INSTRUMENTATION",
+            "subatas": [
+                {
+                    "key": 10761,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 10771,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 10781,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 10791,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 10801,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 10811,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 10821,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 10831,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 10841,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 10851,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/10751"
+                }
+            }
+        },
+        {
+            "key": 10861,
+            "code": "03",
+            "label": "TRAINING DEVICES & AUTOMATIC TEST STATIONS",
+            "subatas": [
+                {
+                    "key": 10871,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 10881,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 10891,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 10901,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 10911,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 10921,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 10931,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 10941,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 10951,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 10961,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/10861"
+                }
+            }
+        },
+        {
+            "key": 10971,
+            "code": "04",
+            "label": "AIRWORTHINESS LIMITATIONS",
+            "subatas": [
+                {
+                    "key": 10981,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 10991,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 11001,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 11011,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 11021,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 11031,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 11041,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 11051,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 11061,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 11071,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/10971"
+                }
+            }
+        },
+        {
+            "key": 11081,
+            "code": "05",
+            "label": "TIME LIMITS MAINTENANCE CHECKS",
+            "subatas": [
+                {
+                    "key": 11091,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 11101,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 11111,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 11121,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 11131,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 11141,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 11151,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 11161,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 11171,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 11181,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/11081"
+                }
+            }
+        },
+        {
+            "key": 11191,
+            "code": "06",
+            "label": "DIMENSIONS & AREAS",
+            "subatas": [
+                {
+                    "key": 11201,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 11211,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 11221,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 11231,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 11241,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 11251,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 11261,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 11271,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 11281,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 11291,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/11191"
+                }
+            }
+        },
+        {
+            "key": 11301,
+            "code": "07",
+            "label": "LIFTING, SHORING, RECOVER. & TRANSPORT.",
+            "subatas": [
+                {
+                    "key": 11311,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 11321,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 11331,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 11341,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 11351,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 11361,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 11371,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 11381,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 11391,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 11401,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/11301"
+                }
+            }
+        },
+        {
+            "key": 11411,
+            "code": "08",
+            "label": "LEVELLING & WEIGHING",
+            "subatas": [
+                {
+                    "key": 11471,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 11481,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 11491,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 11501,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 11511,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/11411"
+                }
+            }
+        },
+        {
+            "key": 11521,
+            "code": "09",
+            "label": "HANDLING & TAXIING",
+            "subatas": [
+                {
+                    "key": 11531,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 11541,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 11551,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 11561,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 11571,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 11581,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 11591,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 11601,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 11611,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 11621,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/11521"
+                }
+            }
+        },
+        {
+            "key": 11631,
+            "code": "10",
+            "label": "PARKING & MOORING",
+            "subatas": [
+                {
+                    "key": 11641,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 11651,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 11661,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 11671,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 11681,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 11691,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 11701,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 11711,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 11721,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 11731,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/11631"
+                }
+            }
+        },
+        {
+            "key": 21021,
+            "code": "105",
+            "label": "RETROFITS/KITS",
+            "subatas": [
+                {
+                    "key": 21031,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 21041,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 21051,
+                    "code": "20",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/21021"
+                }
+            }
+        },
+        {
+            "key": 11741,
+            "code": "11",
+            "label": "PLACKARDS & MARKINGS",
+            "subatas": [
+                {
+                    "key": 11751,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 11761,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 11771,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 11781,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 11791,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 11801,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 11811,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 11821,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 11831,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 11841,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/11741"
+                }
+            }
+        },
+        {
+            "key": 11851,
+            "code": "12",
+            "label": "SERVICING",
+            "subatas": [
+                {
+                    "key": 11861,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 11871,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 11881,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 11891,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 11901,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 11911,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 11921,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 11931,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 11941,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 11951,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/11851"
+                }
+            }
+        },
+        {
+            "key": 11961,
+            "code": "13",
+            "label": "MAINTAINABILITY",
+            "subatas": [
+                {
+                    "key": 11971,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 11981,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 11991,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 12001,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 12011,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 12021,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 12031,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 12041,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 12051,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 12061,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/11961"
+                }
+            }
+        },
+        {
+            "key": 12071,
+            "code": "14",
+            "label": "AIR VEHICLE LOADING & OFF-LOADING",
+            "subatas": [
+                {
+                    "key": 12081,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 12091,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 12101,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 12111,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 12121,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 12131,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 12141,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 12151,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 12161,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 12171,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/12071"
+                }
+            }
+        },
+        {
+            "key": 12181,
+            "code": "15",
+            "label": "AIRCREW INFORMATION (TECH. PUBS ONLY)",
+            "subatas": [
+                {
+                    "key": 12191,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 12201,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 12211,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 12221,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 12231,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 12241,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 12251,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 12271,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 12281,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/12181"
+                }
+            }
+        },
+        {
+            "key": 12291,
+            "code": "16",
+            "label": "CHANGE OF ROLE",
+            "subatas": [
+                {
+                    "key": 12301,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 12311,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 12321,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 12331,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 12341,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 12351,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 12361,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 12371,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 12381,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 12391,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/12291"
+                }
+            }
+        },
+        {
+            "key": 12401,
+            "code": "17",
+            "label": "ENVIRONMENT (GENERAL, EMI/EMC/LIE/LDE)",
+            "subatas": [
+                {
+                    "key": 12411,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 12421,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 12431,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 12441,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 12451,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 12461,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 12471,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 12481,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 12491,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 12501,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/12401"
+                }
+            }
+        },
+        {
+            "key": 12511,
+            "code": "18",
+            "label": "VIBRATION & NOISE ANALYSIS",
+            "subatas": [
+                {
+                    "key": 12521,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 12531,
+                    "code": "10",
+                    "label": "Vibration Analysis"
+                },
+                {
+                    "key": 12541,
+                    "code": "20",
+                    "label": "Noise Analysis"
+                },
+                {
+                    "key": 12551,
+                    "code": "30",
+                    "label": "External Noise Analysis"
+                },
+                {
+                    "key": 12561,
+                    "code": "40",
+                    "label": "Internal Noise Analysis"
+                },
+                {
+                    "key": 12571,
+                    "code": "50",
+                    "label": "Active Attenuation / Actuation"
+                },
+                {
+                    "key": 12581,
+                    "code": "60",
+                    "label": "Sensing"
+                },
+                {
+                    "key": 12591,
+                    "code": "70",
+                    "label": "Control / Computing"
+                },
+                {
+                    "key": 12601,
+                    "code": "80",
+                    "label": "Passive Attenuation"
+                },
+                {
+                    "key": 12611,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/12511"
+                }
+            }
+        },
+        {
+            "key": 12621,
+            "code": "19",
+            "label": "INTEGRATED LOGISTIC SUPPORT (ILS)",
+            "subatas": [
+                {
+                    "key": 12631,
+                    "code": "00",
+                    "label": "Integrated Logistic Support Analysis (ILS) – General"
+                },
+                {
+                    "key": 12641,
+                    "code": "10",
+                    "label": "LSA Record (Database)"
+                },
+                {
+                    "key": 12651,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 12661,
+                    "code": "30",
+                    "label": "Level of Repair Analysis (LORA)"
+                },
+                {
+                    "key": 12671,
+                    "code": "40",
+                    "label": "Maintenance Task Analysis"
+                },
+                {
+                    "key": 12681,
+                    "code": "50",
+                    "label": "Supportability Assessment and Evaluation"
+                },
+                {
+                    "key": 12691,
+                    "code": "60",
+                    "label": "Technical and Operation Publication"
+                },
+                {
+                    "key": 12701,
+                    "code": "70",
+                    "label": "Procurement and Spares"
+                },
+                {
+                    "key": 12711,
+                    "code": "80",
+                    "label": "Tooling"
+                },
+                {
+                    "key": 12721,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/12621"
+                }
+            }
+        },
+        {
+            "key": 12731,
+            "code": "20",
+            "label": "STANDARD PRACTICES - AIRFRAME",
+            "subatas": [
+                {
+                    "key": 12741,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 12751,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 12761,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 12771,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 12781,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 12791,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 12801,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 12811,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 12821,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 12831,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/12731"
+                }
+            }
+        },
+        {
+            "key": 12841,
+            "code": "21",
+            "label": "AIR CONDITIONNING",
+            "subatas": [
+                {
+                    "key": 12851,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 12861,
+                    "code": "10",
+                    "label": "Compression"
+                },
+                {
+                    "key": 12871,
+                    "code": "20",
+                    "label": "Distribution Ventilation"
+                },
+                {
+                    "key": 12881,
+                    "code": "30",
+                    "label": "Bleed Air Usage"
+                },
+                {
+                    "key": 12891,
+                    "code": "40",
+                    "label": "Heating"
+                },
+                {
+                    "key": 12901,
+                    "code": "50",
+                    "label": "Cooling"
+                },
+                {
+                    "key": 12911,
+                    "code": "60",
+                    "label": "Temperature Control"
+                },
+                {
+                    "key": 12921,
+                    "code": "70",
+                    "label": "Moisture / Air Contaminant Control"
+                },
+                {
+                    "key": 12931,
+                    "code": "80",
+                    "label": "Liquid/Gas Coolant"
+                },
+                {
+                    "key": 12941,
+                    "code": "90",
+                    "label": "Integrated Environmental Control System (ECS)"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/12841"
+                }
+            }
+        },
+        {
+            "key": 12951,
+            "code": "22",
+            "label": "AUTO FLIGHT",
+            "subatas": [
+                {
+                    "key": 12961,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 12971,
+                    "code": "10",
+                    "label": "Autopilot"
+                },
+                {
+                    "key": 12981,
+                    "code": "20",
+                    "label": "Speed – Attitude Correction"
+                },
+                {
+                    "key": 12991,
+                    "code": "30",
+                    "label": "Auto Throttle"
+                },
+                {
+                    "key": 13001,
+                    "code": "40",
+                    "label": "System Monitor"
+                },
+                {
+                    "key": 13011,
+                    "code": "50",
+                    "label": "Aerodynamic Load Alleviating"
+                },
+                {
+                    "key": 13021,
+                    "code": "60",
+                    "label": "Electrical Flight Control"
+                },
+                {
+                    "key": 13031,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 13041,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 13051,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/12951"
+                }
+            }
+        },
+        {
+            "key": 13061,
+            "code": "23",
+            "label": "COMMUNICATIONS",
+            "subatas": [
+                {
+                    "key": 13071,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 13081,
+                    "code": "10",
+                    "label": "Speech Communications"
+                },
+                {
+                    "key": 13091,
+                    "code": "20",
+                    "label": "Data Transmission and Automatic Calling"
+                },
+                {
+                    "key": 13101,
+                    "code": "30",
+                    "label": "Passenger Address and Entertainment"
+                },
+                {
+                    "key": 13111,
+                    "code": "40",
+                    "label": "Intercom/Interphone System"
+                },
+                {
+                    "key": 13121,
+                    "code": "50",
+                    "label": "Audio Integrating and Voice Command System"
+                },
+                {
+                    "key": 13131,
+                    "code": "60",
+                    "label": "Static Discharging"
+                },
+                {
+                    "key": 13141,
+                    "code": "70",
+                    "label": "Audio & Video Monitoring"
+                },
+                {
+                    "key": 13151,
+                    "code": "80",
+                    "label": "Integrated Automatic Tuning"
+                },
+                {
+                    "key": 13161,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/13061"
+                }
+            }
+        },
+        {
+            "key": 13171,
+            "code": "24",
+            "label": "ELECTRICAL POWER",
+            "subatas": [
+                {
+                    "key": 13181,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 13191,
+                    "code": "10",
+                    "label": "Generator Drive"
+                },
+                {
+                    "key": 13201,
+                    "code": "20",
+                    "label": "AC Generation"
+                },
+                {
+                    "key": 13211,
+                    "code": "30",
+                    "label": "DC Generation"
+                },
+                {
+                    "key": 13221,
+                    "code": "40",
+                    "label": "External Power"
+                },
+                {
+                    "key": 13231,
+                    "code": "50",
+                    "label": "AC Electrical Load Distribution"
+                },
+                {
+                    "key": 13241,
+                    "code": "60",
+                    "label": "DC Electrical Load Distribution"
+                },
+                {
+                    "key": 13251,
+                    "code": "70",
+                    "label": "Electr. Monitoring & Protection"
+                },
+                {
+                    "key": 13271,
+                    "code": "90",
+                    "label": "Multipurpose Equipment/Utility Sockets"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/13171"
+                }
+            }
+        },
+        {
+            "key": 13281,
+            "code": "25",
+            "label": "EQUIPMENT / FURNISHINGS",
+            "subatas": [
+                {
+                    "key": 13291,
+                    "code": "00",
+                    "label": "Equipment/Furnishings – General"
+                },
+                {
+                    "key": 13301,
+                    "code": "10",
+                    "label": "Flight Compartment"
+                },
+                {
+                    "key": 13311,
+                    "code": "20",
+                    "label": "Passenger/Operating Crew Compartment"
+                },
+                {
+                    "key": 13321,
+                    "code": "30",
+                    "label": "Buffet/Galley"
+                },
+                {
+                    "key": 13331,
+                    "code": "40",
+                    "label": "Emergency Floatation System"
+                },
+                {
+                    "key": 13341,
+                    "code": "50",
+                    "label": "Additional Compartments (incl. lavatories)"
+                },
+                {
+                    "key": 13381,
+                    "code": "60",
+                    "label": "Emergency"
+                },
+                {
+                    "key": 13351,
+                    "code": "70",
+                    "label": "Accessory Compartments"
+                },
+                {
+                    "key": 13361,
+                    "code": "80",
+                    "label": "Insulation and Lining"
+                },
+                {
+                    "key": 13371,
+                    "code": "90",
+                    "label": "External Load Systems"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/13281"
+                }
+            }
+        },
+        {
+            "key": 13391,
+            "code": "26",
+            "label": "FIRE PROTECTION",
+            "subatas": [
+                {
+                    "key": 13401,
+                    "code": "00",
+                    "label": "Fire Protection – General"
+                },
+                {
+                    "key": 13411,
+                    "code": "10",
+                    "label": "Detection"
+                },
+                {
+                    "key": 13421,
+                    "code": "20",
+                    "label": "Extinguishing"
+                },
+                {
+                    "key": 13431,
+                    "code": "30",
+                    "label": "Explosion Suppression"
+                },
+                {
+                    "key": 13441,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 13451,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 13461,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 13471,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 13481,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 13491,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/13391"
+                }
+            }
+        },
+        {
+            "key": 13501,
+            "code": "27",
+            "label": "FLIGHT CONTROLS",
+            "subatas": [
+                {
+                    "key": 13511,
+                    "code": "00",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 13521,
+                    "code": "10",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 13531,
+                    "code": "20",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 13541,
+                    "code": "30",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 13551,
+                    "code": "40",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 13561,
+                    "code": "50",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 13571,
+                    "code": "60",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 13581,
+                    "code": "70",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 13591,
+                    "code": "80",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 13601,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/13501"
+                }
+            }
+        },
+        {
+            "key": 13611,
+            "code": "28",
+            "label": "FUEL",
+            "subatas": [
+                {
+                    "key": 13621,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 13631,
+                    "code": "10",
+                    "label": "Storage and Ventilation, Auxiliary Tank"
+                },
+                {
+                    "key": 13641,
+                    "code": "20",
+                    "label": "Distribution and Refuelling / Drain Valves/Pressure Fuelling"
+                },
+                {
+                    "key": 13651,
+                    "code": "30",
+                    "label": "Dump"
+                },
+                {
+                    "key": 13661,
+                    "code": "40",
+                    "label": "Indicating"
+                },
+                {
+                    "key": 13671,
+                    "code": "50",
+                    "label": "In-Flight Refuelling"
+                },
+                {
+                    "key": 13681,
+                    "code": "60",
+                    "label": "Fuel/Centre of Gravity Management"
+                },
+                {
+                    "key": 13691,
+                    "code": "70",
+                    "label": "Fuel Equipments"
+                },
+                {
+                    "key": 13701,
+                    "code": "80",
+                    "label": "Inert Gas System"
+                },
+                {
+                    "key": 13711,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/13611"
+                }
+            }
+        },
+        {
+            "key": 13721,
+            "code": "29",
+            "label": "HYDRAULIC POWER",
+            "subatas": [
+                {
+                    "key": 13731,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 13741,
+                    "code": "10",
+                    "label": "Main"
+                },
+                {
+                    "key": 13751,
+                    "code": "20",
+                    "label": "Auxiliary"
+                },
+                {
+                    "key": 13761,
+                    "code": "30",
+                    "label": "Indicating"
+                },
+                {
+                    "key": 13771,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 13781,
+                    "code": "50",
+                    "label": "Hydraulic Pipes"
+                },
+                {
+                    "key": 13791,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 13801,
+                    "code": "70",
+                    "label": "Hydraulic Drainage"
+                },
+                {
+                    "key": 13811,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 13821,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/13721"
+                }
+            }
+        },
+        {
+            "key": 13831,
+            "code": "30",
+            "label": "ICE AND RAIN PROTECTION",
+            "subatas": [
+                {
+                    "key": 13841,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 13851,
+                    "code": "10",
+                    "label": "Airfoil"
+                },
+                {
+                    "key": 13861,
+                    "code": "20",
+                    "label": "Air Intakes Ice Protection"
+                },
+                {
+                    "key": 13871,
+                    "code": "30",
+                    "label": "Pitot and Static"
+                },
+                {
+                    "key": 13881,
+                    "code": "40",
+                    "label": "Windows, Windshields Canopies, and Doors"
+                },
+                {
+                    "key": 13891,
+                    "code": "50",
+                    "label": "Antennas and Radomes"
+                },
+                {
+                    "key": 13901,
+                    "code": "60",
+                    "label": "Propellers/Rotors"
+                },
+                {
+                    "key": 13911,
+                    "code": "70",
+                    "label": "Water Lines"
+                },
+                {
+                    "key": 13921,
+                    "code": "80",
+                    "label": "Detection"
+                },
+                {
+                    "key": 13931,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/13831"
+                }
+            }
+        },
+        {
+            "key": 13941,
+            "code": "31",
+            "label": "INDICATING / RECORDING SYSTEMS",
+            "subatas": [
+                {
+                    "key": 13951,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 13961,
+                    "code": "10",
+                    "label": "Instrument and Control Panels"
+                },
+                {
+                    "key": 13971,
+                    "code": "20",
+                    "label": "Independent Instruments"
+                },
+                {
+                    "key": 13981,
+                    "code": "30",
+                    "label": "Recorders"
+                },
+                {
+                    "key": 13991,
+                    "code": "40",
+                    "label": "General Computers"
+                },
+                {
+                    "key": 14001,
+                    "code": "50",
+                    "label": "Central Warning Systems"
+                },
+                {
+                    "key": 14011,
+                    "code": "60",
+                    "label": "Central Display Systems"
+                },
+                {
+                    "key": 14021,
+                    "code": "70",
+                    "label": "Automatic Data Recording Systems"
+                },
+                {
+                    "key": 14031,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 14041,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/13941"
+                }
+            }
+        },
+        {
+            "key": 14051,
+            "code": "32",
+            "label": "LANDING GEAR",
+            "subatas": [
+                {
+                    "key": 14061,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 14071,
+                    "code": "10",
+                    "label": "Main Gear and Doors"
+                },
+                {
+                    "key": 14081,
+                    "code": "20",
+                    "label": "Noise Gear/Tail Gear and Doors"
+                },
+                {
+                    "key": 14091,
+                    "code": "30",
+                    "label": "Extension and Retraction"
+                },
+                {
+                    "key": 14101,
+                    "code": "40",
+                    "label": "Wheels & Brakes"
+                },
+                {
+                    "key": 14111,
+                    "code": "50",
+                    "label": "Steering"
+                },
+                {
+                    "key": 14121,
+                    "code": "60",
+                    "label": "Position, Warning, and Ground Safety Switch"
+                },
+                {
+                    "key": 14131,
+                    "code": "70",
+                    "label": "Supplementary Gear - Skis, Floats"
+                },
+                {
+                    "key": 14141,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 14151,
+                    "code": "90",
+                    "label": "Arresting Hook/Landing Assistance Equipment"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/14051"
+                }
+            }
+        },
+        {
+            "key": 14161,
+            "code": "33",
+            "label": "LIGHTS",
+            "subatas": [
+                {
+                    "key": 14171,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 14181,
+                    "code": "10",
+                    "label": "Flight Compartment"
+                },
+                {
+                    "key": 14191,
+                    "code": "20",
+                    "label": "Passenger Compartment"
+                },
+                {
+                    "key": 14201,
+                    "code": "30",
+                    "label": "Cargo and Service Compartments"
+                },
+                {
+                    "key": 14211,
+                    "code": "40",
+                    "label": "Exterior"
+                },
+                {
+                    "key": 14221,
+                    "code": "50",
+                    "label": "Emergency Lighting"
+                },
+                {
+                    "key": 14231,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 14241,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 14251,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 14261,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/14161"
+                }
+            }
+        },
+        {
+            "key": 14271,
+            "code": "34",
+            "label": "NAVIGATION",
+            "subatas": [
+                {
+                    "key": 14281,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 14291,
+                    "code": "10",
+                    "label": "Flight Environment Data"
+                },
+                {
+                    "key": 14301,
+                    "code": "20",
+                    "label": "Attitude And Direction"
+                },
+                {
+                    "key": 14311,
+                    "code": "30",
+                    "label": "Landing and Taxiing Aids"
+                },
+                {
+                    "key": 14321,
+                    "code": "40",
+                    "label": "Independent Position Determining"
+                },
+                {
+                    "key": 14331,
+                    "code": "50",
+                    "label": "Dependent Position Determining"
+                },
+                {
+                    "key": 14341,
+                    "code": "60",
+                    "label": "Flight Management Computing"
+                },
+                {
+                    "key": 14351,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 14361,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 14371,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/14271"
+                }
+            }
+        },
+        {
+            "key": 14381,
+            "code": "35",
+            "label": "OXYGEN",
+            "subatas": [
+                {
+                    "key": 14391,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 14401,
+                    "code": "10",
+                    "label": "Crew"
+                },
+                {
+                    "key": 14411,
+                    "code": "20",
+                    "label": "Passenger"
+                },
+                {
+                    "key": 14421,
+                    "code": "30",
+                    "label": "Portable"
+                },
+                {
+                    "key": 14431,
+                    "code": "40",
+                    "label": "On Board Oxygen Generating System"
+                },
+                {
+                    "key": 14441,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 14451,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 14461,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 14471,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 14481,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/14381"
+                }
+            }
+        },
+        {
+            "key": 14491,
+            "code": "36",
+            "label": "PNEUMATIC",
+            "subatas": [
+                {
+                    "key": 14501,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 14511,
+                    "code": "10",
+                    "label": "Distribution"
+                },
+                {
+                    "key": 14521,
+                    "code": "20",
+                    "label": "Indicating"
+                },
+                {
+                    "key": 14531,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 14541,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 14551,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 14561,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 14571,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 14581,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 14591,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/14491"
+                }
+            }
+        },
+        {
+            "key": 14601,
+            "code": "37",
+            "label": "VACUUM",
+            "subatas": [
+                {
+                    "key": 14611,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 14621,
+                    "code": "10",
+                    "label": "Distribution"
+                },
+                {
+                    "key": 14631,
+                    "code": "20",
+                    "label": "Indicating"
+                },
+                {
+                    "key": 14641,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 14651,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 14661,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 14671,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 14681,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 14691,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 14701,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/14601"
+                }
+            }
+        },
+        {
+            "key": 14711,
+            "code": "38",
+            "label": "WATER / WASTE",
+            "subatas": [
+                {
+                    "key": 14721,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 14731,
+                    "code": "10",
+                    "label": "Portable"
+                },
+                {
+                    "key": 14741,
+                    "code": "20",
+                    "label": "Wash"
+                },
+                {
+                    "key": 14751,
+                    "code": "30",
+                    "label": "Waste Disposal"
+                },
+                {
+                    "key": 14761,
+                    "code": "40",
+                    "label": "Air Supply"
+                },
+                {
+                    "key": 14771,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 14781,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 14791,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 14801,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 14811,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/14711"
+                }
+            }
+        },
+        {
+            "key": 14821,
+            "code": "39",
+            "label": "ELECTRICAL - ELECTRONIC PANELS AND MULTIPURPOSE COMPONENTS",
+            "subatas": [
+                {
+                    "key": 14831,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 14841,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 14851,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 14861,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 14871,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 14881,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 14891,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 14901,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 14911,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 14921,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/14821"
+                }
+            }
+        },
+        {
+            "key": 14931,
+            "code": "40",
+            "label": "",
+            "subatas": [
+                {
+                    "key": 14941,
+                    "code": "00",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 14951,
+                    "code": "10",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 14961,
+                    "code": "20",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 14971,
+                    "code": "30",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 14981,
+                    "code": "40",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 14991,
+                    "code": "50",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15001,
+                    "code": "60",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15011,
+                    "code": "70",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15021,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 15031,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/14931"
+                }
+            }
+        },
+        {
+            "key": 15041,
+            "code": "41",
+            "label": "WATER BALLAST",
+            "subatas": [
+                {
+                    "key": 15051,
+                    "code": "00",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15061,
+                    "code": "10",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15071,
+                    "code": "20",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15081,
+                    "code": "30",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15091,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 15101,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 15111,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 15121,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 15131,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 15141,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/15041"
+                }
+            }
+        },
+        {
+            "key": 15151,
+            "code": "42",
+            "label": "INTEGRATE MODULAR AVIONICS AND DATA COMMUNICATION NETWORK",
+            "subatas": [
+                {
+                    "key": 15161,
+                    "code": "00",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15171,
+                    "code": "10",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15181,
+                    "code": "20",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15191,
+                    "code": "30",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15201,
+                    "code": "40",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15211,
+                    "code": "50",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15221,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 15231,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 15241,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 15251,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/15151"
+                }
+            }
+        },
+        {
+            "key": 15261,
+            "code": "43",
+            "label": "TACTICAL COMMUNICATIONS",
+            "subatas": [
+                {
+                    "key": 15271,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 15281,
+                    "code": "10",
+                    "label": "Ultra-Super & Extra High (UHF / SHF / EHF)"
+                },
+                {
+                    "key": 15291,
+                    "code": "20",
+                    "label": "Very High Frequency ( VHF)"
+                },
+                {
+                    "key": 15301,
+                    "code": "30",
+                    "label": "High Frequency (HF)"
+                },
+                {
+                    "key": 15311,
+                    "code": "40",
+                    "label": "Ultra High Frequency (UHF)"
+                },
+                {
+                    "key": 15321,
+                    "code": "50",
+                    "label": "Low + Very Low Frequency (VLF)"
+                },
+                {
+                    "key": 15331,
+                    "code": "60",
+                    "label": "Audio Integrating"
+                },
+                {
+                    "key": 15341,
+                    "code": "70",
+                    "label": "Multiplex & Audio Switching"
+                },
+                {
+                    "key": 15351,
+                    "code": "80",
+                    "label": "Interphone & Passenger Address"
+                },
+                {
+                    "key": 15361,
+                    "code": "90",
+                    "label": "Satellite Communications (SATCOM)"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/15261"
+                }
+            }
+        },
+        {
+            "key": 15371,
+            "code": "44",
+            "label": "not allocated",
+            "subatas": [
+                {
+                    "key": 15381,
+                    "code": "00",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15391,
+                    "code": "10",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15401,
+                    "code": "20",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15411,
+                    "code": "30",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15421,
+                    "code": "40",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15431,
+                    "code": "50",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15441,
+                    "code": "60",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15451,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 15461,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 15471,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/15371"
+                }
+            }
+        },
+        {
+            "key": 15481,
+            "code": "45",
+            "label": "CENTRAL MAINTENANCE SYSTEM (CMS)",
+            "subatas": [
+                {
+                    "key": 15491,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 15501,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 15511,
+                    "code": "20",
+                    "label": "CMS/Airframe Systems"
+                },
+                {
+                    "key": 15521,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 15531,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 15541,
+                    "code": "50",
+                    "label": "CMS/Structures"
+                },
+                {
+                    "key": 15551,
+                    "code": "60",
+                    "label": "CMS/Propellers"
+                },
+                {
+                    "key": 15561,
+                    "code": "70",
+                    "label": "CMS/Power Plant"
+                },
+                {
+                    "key": 15571,
+                    "code": "80",
+                    "label": "Monitoring System"
+                },
+                {
+                    "key": 15581,
+                    "code": "90",
+                    "label": "CMS/Military Systems"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/15481"
+                }
+            }
+        },
+        {
+            "key": 15591,
+            "code": "46",
+            "label": "SYSTEMS INTEGRATION AND DISPLAY",
+            "subatas": [
+                {
+                    "key": 15601,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 15611,
+                    "code": "10",
+                    "label": "Acquisition"
+                },
+                {
+                    "key": 15621,
+                    "code": "20",
+                    "label": "Process and Integration (AMC Hosted Appl. or LRUs)"
+                },
+                {
+                    "key": 15631,
+                    "code": "30",
+                    "label": "Primary Display Format (MFD Hosted Appl.)"
+                },
+                {
+                    "key": 15641,
+                    "code": "40",
+                    "label": "Systems Integration Software Packages"
+                },
+                {
+                    "key": 15651,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 15661,
+                    "code": "60",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15671,
+                    "code": "70",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15681,
+                    "code": "80",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 15691,
+                    "code": "90",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/15591"
+                }
+            }
+        },
+        {
+            "key": 15701,
+            "code": "47",
+            "label": "not allocated",
+            "subatas": [
+                {
+                    "key": 15711,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 15721,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 15731,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 15741,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 15751,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 15761,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 15771,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 15781,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 15791,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 15801,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/15701"
+                }
+            }
+        },
+        {
+            "key": 15811,
+            "code": "48",
+            "label": "not allocated",
+            "subatas": [
+                {
+                    "key": 15821,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 15831,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 15841,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 15851,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 15861,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 15871,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 15881,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 15891,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 15901,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 15911,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/15811"
+                }
+            }
+        },
+        {
+            "key": 15921,
+            "code": "49",
+            "label": "AIRBORNE AUXILIARY POWER",
+            "subatas": [
+                {
+                    "key": 15931,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 15941,
+                    "code": "10",
+                    "label": "APU Power Plant"
+                },
+                {
+                    "key": 15951,
+                    "code": "20",
+                    "label": "APU Engine"
+                },
+                {
+                    "key": 15961,
+                    "code": "30",
+                    "label": "Engine Fuel Indicating and Control"
+                },
+                {
+                    "key": 15971,
+                    "code": "40",
+                    "label": "Ignition/Starting"
+                },
+                {
+                    "key": 15981,
+                    "code": "50",
+                    "label": "Air"
+                },
+                {
+                    "key": 15991,
+                    "code": "60",
+                    "label": "Engine Controls"
+                },
+                {
+                    "key": 16001,
+                    "code": "70",
+                    "label": "Engine Indicating"
+                },
+                {
+                    "key": 16011,
+                    "code": "80",
+                    "label": "Exhaust"
+                },
+                {
+                    "key": 16021,
+                    "code": "90",
+                    "label": "Oil"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/15921"
+                }
+            }
+        },
+        {
+            "key": 16031,
+            "code": "50",
+            "label": "not allocated",
+            "subatas": [
+                {
+                    "key": 16041,
+                    "code": "00",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16051,
+                    "code": "10",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16061,
+                    "code": "20",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16071,
+                    "code": "30",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16081,
+                    "code": "40",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16091,
+                    "code": "50",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16101,
+                    "code": "60",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16111,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 16121,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 16131,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/16031"
+                }
+            }
+        },
+        {
+            "key": 16141,
+            "code": "51",
+            "label": "STANDARD PRACTICES AND STRUCTURES - GENERAL",
+            "subatas": [
+                {
+                    "key": 16151,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 16161,
+                    "code": "10",
+                    "label": "Investigation, Clean up and Aerodynamic Smoothness"
+                },
+                {
+                    "key": 16171,
+                    "code": "20",
+                    "label": "Processes"
+                },
+                {
+                    "key": 16181,
+                    "code": "30",
+                    "label": "Materials"
+                },
+                {
+                    "key": 16191,
+                    "code": "40",
+                    "label": "Fasteners + Hinges"
+                },
+                {
+                    "key": 16201,
+                    "code": "50",
+                    "label": "Support of Airplane for Repair and Alignment Check Procedures"
+                },
+                {
+                    "key": 16211,
+                    "code": "60",
+                    "label": "Control-Surface-Balancing"
+                },
+                {
+                    "key": 16221,
+                    "code": "70",
+                    "label": "Repairs"
+                },
+                {
+                    "key": 16231,
+                    "code": "80",
+                    "label": "Electrical Bonding"
+                },
+                {
+                    "key": 16241,
+                    "code": "90",
+                    "label": "Painting, Corrosion and Cleaning"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/16141"
+                }
+            }
+        },
+        {
+            "key": 16251,
+            "code": "52",
+            "label": "DOORS",
+            "subatas": [
+                {
+                    "key": 16261,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 16271,
+                    "code": "10",
+                    "label": "Passenger/Crew"
+                },
+                {
+                    "key": 16281,
+                    "code": "20",
+                    "label": "Emergency Exit"
+                },
+                {
+                    "key": 16291,
+                    "code": "30",
+                    "label": "Cargo"
+                },
+                {
+                    "key": 16301,
+                    "code": "40",
+                    "label": "Service and Miscellaneous"
+                },
+                {
+                    "key": 16311,
+                    "code": "50",
+                    "label": "Fixed Interior"
+                },
+                {
+                    "key": 16321,
+                    "code": "60",
+                    "label": "Entrance Stairs"
+                },
+                {
+                    "key": 16331,
+                    "code": "70",
+                    "label": "Monitoring and Operation (i.e. Door Warning)"
+                },
+                {
+                    "key": 16341,
+                    "code": "80",
+                    "label": "Landing Gear"
+                },
+                {
+                    "key": 16351,
+                    "code": "90",
+                    "label": "Electrical Mechanism"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/16251"
+                }
+            }
+        },
+        {
+            "key": 16361,
+            "code": "53",
+            "label": "FUSELAGE",
+            "subatas": [
+                {
+                    "key": 16371,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 16381,
+                    "code": "10",
+                    "label": "Front Fuselage"
+                },
+                {
+                    "key": 16391,
+                    "code": "20",
+                    "label": "Bay Structure"
+                },
+                {
+                    "key": 16401,
+                    "code": "30",
+                    "label": "Centre Fuselage"
+                },
+                {
+                    "key": 16411,
+                    "code": "40",
+                    "label": "Intermediate Fuselage"
+                },
+                {
+                    "key": 16421,
+                    "code": "50",
+                    "label": "Tail Boom"
+                },
+                {
+                    "key": 16431,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 16441,
+                    "code": "70",
+                    "label": "Fairings"
+                },
+                {
+                    "key": 16451,
+                    "code": "80",
+                    "label": "Sponsons"
+                },
+                {
+                    "key": 16461,
+                    "code": "90",
+                    "label": "Front Fuselage Retrofit"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/16361"
+                }
+            }
+        },
+        {
+            "key": 16471,
+            "code": "54",
+            "label": "NACELLES / PYLONS",
+            "subatas": [
+                {
+                    "key": 16481,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 16491,
+                    "code": "10",
+                    "label": "Nacelle Section"
+                },
+                {
+                    "key": 16501,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 16511,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 16521,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 16531,
+                    "code": "50",
+                    "label": "Pylon"
+                },
+                {
+                    "key": 16541,
+                    "code": "60",
+                    "label": "Stub Wing"
+                },
+                {
+                    "key": 16551,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 16561,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 16571,
+                    "code": "90",
+                    "label": "Air Management (i.e. EAPS)"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/16471"
+                }
+            }
+        },
+        {
+            "key": 16581,
+            "code": "55",
+            "label": "STABILIZERS",
+            "subatas": [
+                {
+                    "key": 16591,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 16601,
+                    "code": "10",
+                    "label": "Horizontal Stabilizer or Canard"
+                },
+                {
+                    "key": 16611,
+                    "code": "20",
+                    "label": "Elevator"
+                },
+                {
+                    "key": 16621,
+                    "code": "30",
+                    "label": "Vertical Stabilizer"
+                },
+                {
+                    "key": 16631,
+                    "code": "40",
+                    "label": "Rudder"
+                },
+                {
+                    "key": 16641,
+                    "code": "50",
+                    "label": "Auxiliary Stabilizers & Strakes"
+                },
+                {
+                    "key": 16651,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 16661,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 16671,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 16681,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/16581"
+                }
+            }
+        },
+        {
+            "key": 16691,
+            "code": "56",
+            "label": "WINDOWS",
+            "subatas": [
+                {
+                    "key": 16701,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 16711,
+                    "code": "10",
+                    "label": "Flight Compartment"
+                },
+                {
+                    "key": 16721,
+                    "code": "20",
+                    "label": "Fuselage Compartment"
+                },
+                {
+                    "key": 16731,
+                    "code": "30",
+                    "label": "Door"
+                },
+                {
+                    "key": 16741,
+                    "code": "40",
+                    "label": "Inspection and Observation"
+                },
+                {
+                    "key": 16751,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 16761,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 16771,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 16781,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 16791,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/16691"
+                }
+            }
+        },
+        {
+            "key": 16801,
+            "code": "57",
+            "label": "WINGS",
+            "subatas": [
+                {
+                    "key": 16811,
+                    "code": "00",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16821,
+                    "code": "10",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16831,
+                    "code": "20",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16841,
+                    "code": "30",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16851,
+                    "code": "40",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16861,
+                    "code": "50",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16871,
+                    "code": "60",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16881,
+                    "code": "70",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16891,
+                    "code": "80",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 16901,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/16801"
+                }
+            }
+        },
+        {
+            "key": 16911,
+            "code": "58",
+            "label": "not allocated",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/16911"
+                }
+            }
+        },
+        {
+            "key": 16921,
+            "code": "59",
+            "label": "not allocated",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/16921"
+                }
+            }
+        },
+        {
+            "key": 16931,
+            "code": "60",
+            "label": "STANDARD PRACTICES PROPELLER/ROTOR",
+            "subatas": [
+                {
+                    "key": 16941,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 16951,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 16961,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 16971,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 16981,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 16991,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 17001,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 17011,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 17021,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 17031,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/16931"
+                }
+            }
+        },
+        {
+            "key": 17041,
+            "code": "61",
+            "label": "PROPELLERS / PROPULSORS",
+            "subatas": [
+                {
+                    "key": 17051,
+                    "code": "00",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 17061,
+                    "code": "10",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 17071,
+                    "code": "20",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 17081,
+                    "code": "30",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 17091,
+                    "code": "40",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 17101,
+                    "code": "50",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/17041"
+                }
+            }
+        },
+        {
+            "key": 17111,
+            "code": "62",
+            "label": "PROPELLERS / PROPULSORS",
+            "subatas": [
+                {
+                    "key": 17191,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 17201,
+                    "code": "10",
+                    "label": "Main Rotor Blades"
+                },
+                {
+                    "key": 17211,
+                    "code": "20",
+                    "label": "Main Rotor Heads"
+                },
+                {
+                    "key": 17221,
+                    "code": "30",
+                    "label": "Rotating Controls, Rotor Shafts/Swash Plate assemblies"
+                },
+                {
+                    "key": 17231,
+                    "code": "40",
+                    "label": "Indicating"
+                },
+                {
+                    "key": 17241,
+                    "code": "50",
+                    "label": "Main Rotor Mast Assy"
+                },
+                {
+                    "key": 17121,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 17251,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 17261,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 17271,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/17111"
+                }
+            }
+        },
+        {
+            "key": 17131,
+            "code": "63",
+            "label": "PROPELLERS / PROPULSORS",
+            "subatas": [
+                {
+                    "key": 17281,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 17291,
+                    "code": "10",
+                    "label": "Engine/Gearbox Couplings"
+                },
+                {
+                    "key": 17301,
+                    "code": "20",
+                    "label": "Gearboxes"
+                },
+                {
+                    "key": 17311,
+                    "code": "30",
+                    "label": "Mounts and Attachments"
+                },
+                {
+                    "key": 17321,
+                    "code": "40",
+                    "label": "Indicating"
+                },
+                {
+                    "key": 17341,
+                    "code": "60",
+                    "label": "Oil Cooling System"
+                },
+                {
+                    "key": 17141,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 17351,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 17361,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/17131"
+                }
+            }
+        },
+        {
+            "key": 17151,
+            "code": "64",
+            "label": "PROPELLERS / PROPULSORS",
+            "subatas": [
+                {
+                    "key": 17371,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 17381,
+                    "code": "10",
+                    "label": "Tail Rotor Blades"
+                },
+                {
+                    "key": 17391,
+                    "code": "20",
+                    "label": "Tail Rotor Head"
+                },
+                {
+                    "key": 17401,
+                    "code": "30",
+                    "label": "Rotating Controls"
+                },
+                {
+                    "key": 17411,
+                    "code": "40",
+                    "label": "Indicating"
+                },
+                {
+                    "key": 17421,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 17431,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 17441,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 17161,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 17451,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/17151"
+                }
+            }
+        },
+        {
+            "key": 17171,
+            "code": "65",
+            "label": "PROPELLERS / PROPULSORS",
+            "subatas": [
+                {
+                    "key": 17461,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 17471,
+                    "code": "10",
+                    "label": "Shafts Coupling"
+                },
+                {
+                    "key": 17481,
+                    "code": "20",
+                    "label": "Tail Gearboxes"
+                },
+                {
+                    "key": 17491,
+                    "code": "30",
+                    "label": "Intermediate Gearbox (IGB)"
+                },
+                {
+                    "key": 17501,
+                    "code": "40",
+                    "label": "Indicating"
+                },
+                {
+                    "key": 17511,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 17521,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 17531,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 17541,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 17181,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/17171"
+                }
+            }
+        },
+        {
+            "key": 17551,
+            "code": "66",
+            "label": "ROTOR BLADE AND TAIL PYLON FOLDING",
+            "subatas": [
+                {
+                    "key": 17561,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 17571,
+                    "code": "10",
+                    "label": "Rotor Blades"
+                },
+                {
+                    "key": 17581,
+                    "code": "20",
+                    "label": "Tail Pylon"
+                },
+                {
+                    "key": 17591,
+                    "code": "30",
+                    "label": "Control and Indication"
+                },
+                {
+                    "key": 17601,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 17611,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 17621,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 17631,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 17641,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 17651,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/17551"
+                }
+            }
+        },
+        {
+            "key": 17661,
+            "code": "67",
+            "label": "ROTORS FLIGHT CONTROL",
+            "subatas": [
+                {
+                    "key": 17671,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 17681,
+                    "code": "10",
+                    "label": "Rotor (Flight) Controls"
+                },
+                {
+                    "key": 17691,
+                    "code": "20",
+                    "label": "Anti-Torque Rotor (Flight) Control (Yaw Control)"
+                },
+                {
+                    "key": 17701,
+                    "code": "30",
+                    "label": "Servo-Control System"
+                },
+                {
+                    "key": 17711,
+                    "code": "40",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 17721,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 17731,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 17741,
+                    "code": "70",
+                    "label": "#LEAVE_EMPTY_FOR_NOW#"
+                },
+                {
+                    "key": 17751,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 17761,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/17661"
+                }
+            }
+        },
+        {
+            "key": 17771,
+            "code": "68",
+            "label": "not allocated",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/17771"
+                }
+            }
+        },
+        {
+            "key": 17781,
+            "code": "69",
+            "label": "not allocated",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/17781"
+                }
+            }
+        },
+        {
+            "key": 17791,
+            "code": "70",
+            "label": "STANDARD PRACTICES ENGINES",
+            "subatas": [
+                {
+                    "key": 17801,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 17811,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 17821,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 17831,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 17841,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 17851,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 17861,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 17871,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 17881,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 17891,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/17791"
+                }
+            }
+        },
+        {
+            "key": 17901,
+            "code": "71",
+            "label": "POWER PLANT - GENERAL",
+            "subatas": [
+                {
+                    "key": 17911,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 17921,
+                    "code": "10",
+                    "label": "Cowlings & IR Suppressor"
+                },
+                {
+                    "key": 17931,
+                    "code": "20",
+                    "label": "Mounts"
+                },
+                {
+                    "key": 17941,
+                    "code": "30",
+                    "label": "Fire Wall, Seals and Shrouds"
+                },
+                {
+                    "key": 17951,
+                    "code": "40",
+                    "label": "Attach Fittings"
+                },
+                {
+                    "key": 17961,
+                    "code": "50",
+                    "label": "Electrical Harness"
+                },
+                {
+                    "key": 17971,
+                    "code": "60",
+                    "label": "Engine Air Intakes & Sand Filter"
+                },
+                {
+                    "key": 17981,
+                    "code": "70",
+                    "label": "Engine Drains"
+                },
+                {
+                    "key": 17991,
+                    "code": "80",
+                    "label": "Engine Pipes"
+                },
+                {
+                    "key": 18001,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/17901"
+                }
+            }
+        },
+        {
+            "key": 18011,
+            "code": "72",
+            "label": "ENGINE - TURBINE / TURBOPROP, DUCTED FAN / UNDUCTED FAN",
+            "subatas": [
+                {
+                    "key": 18021,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 18031,
+                    "code": "20",
+                    "label": "Air Inlet Section"
+                },
+                {
+                    "key": 18051,
+                    "code": "30",
+                    "label": "Compressor Section"
+                },
+                {
+                    "key": 18041,
+                    "code": "40",
+                    "label": "Combustion Section"
+                },
+                {
+                    "key": 18061,
+                    "code": "50",
+                    "label": "Turbine Section"
+                },
+                {
+                    "key": 18071,
+                    "code": "60",
+                    "label": "Accessory Drives"
+                },
+                {
+                    "key": 18081,
+                    "code": "70",
+                    "label": "By-Pass Section"
+                },
+                {
+                    "key": 18091,
+                    "code": "80",
+                    "label": "Propulsor Section (Rear Mounted)"
+                },
+                {
+                    "key": 18101,
+                    "code": "90",
+                    "label": "Multi-System Hardware"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18011"
+                }
+            }
+        },
+        {
+            "key": 18111,
+            "code": "72(R)",
+            "label": "ENGINE - RECIPROCATING",
+            "subatas": [
+                {
+                    "key": 18121,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 18131,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 18141,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 18151,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 18161,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 18171,
+                    "code": "50",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18111"
+                }
+            }
+        },
+        {
+            "key": 18181,
+            "code": "73",
+            "label": "ENGINE - FUEL AND CONTROL",
+            "subatas": [
+                {
+                    "key": 18191,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 18201,
+                    "code": "10",
+                    "label": "Distribution"
+                },
+                {
+                    "key": 18211,
+                    "code": "20",
+                    "label": "Controlling – Governing"
+                },
+                {
+                    "key": 18221,
+                    "code": "30",
+                    "label": "Indicating"
+                },
+                {
+                    "key": 18231,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 18241,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 18251,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 18261,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 18271,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 18281,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18181"
+                }
+            }
+        },
+        {
+            "key": 18291,
+            "code": "74",
+            "label": "IGNITION",
+            "subatas": [
+                {
+                    "key": 18301,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 18311,
+                    "code": "10",
+                    "label": "Electrical Power Supply"
+                },
+                {
+                    "key": 18321,
+                    "code": "20",
+                    "label": "Distribution"
+                },
+                {
+                    "key": 18331,
+                    "code": "30",
+                    "label": "Switching"
+                },
+                {
+                    "key": 18341,
+                    "code": "40",
+                    "label": "Indicating"
+                },
+                {
+                    "key": 18351,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 18361,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 18371,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 18381,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 18391,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18291"
+                }
+            }
+        },
+        {
+            "key": 18401,
+            "code": "75",
+            "label": "BLEED AIR",
+            "subatas": [
+                {
+                    "key": 18411,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 18421,
+                    "code": "10",
+                    "label": "Engine Anti-Icing"
+                },
+                {
+                    "key": 18431,
+                    "code": "20",
+                    "label": "Engine Cooling"
+                },
+                {
+                    "key": 18441,
+                    "code": "30",
+                    "label": "Compressor Control"
+                },
+                {
+                    "key": 18451,
+                    "code": "40",
+                    "label": "Indicating"
+                },
+                {
+                    "key": 18461,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 18471,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 18481,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 18491,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 18501,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18401"
+                }
+            }
+        },
+        {
+            "key": 18511,
+            "code": "76",
+            "label": "ENGINE CONTROLS",
+            "subatas": [
+                {
+                    "key": 18521,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 18531,
+                    "code": "10",
+                    "label": "Power Control"
+                },
+                {
+                    "key": 18541,
+                    "code": "20",
+                    "label": "Emergency Shutdown"
+                },
+                {
+                    "key": 18551,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 18561,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 18571,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 18581,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 18591,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 18601,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 18611,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18511"
+                }
+            }
+        },
+        {
+            "key": 18621,
+            "code": "77",
+            "label": "ENGINE INDICATING",
+            "subatas": [
+                {
+                    "key": 18631,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 18641,
+                    "code": "10",
+                    "label": "Power"
+                },
+                {
+                    "key": 18651,
+                    "code": "20",
+                    "label": "Temperature"
+                },
+                {
+                    "key": 18661,
+                    "code": "30",
+                    "label": "Analyzers"
+                },
+                {
+                    "key": 18671,
+                    "code": "40",
+                    "label": "Integrated Engine Instrument Systems"
+                },
+                {
+                    "key": 18681,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 18691,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 18701,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 18711,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 18721,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18621"
+                }
+            }
+        },
+        {
+            "key": 18731,
+            "code": "78",
+            "label": "EXHAUST",
+            "subatas": [
+                {
+                    "key": 18741,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 18751,
+                    "code": "10",
+                    "label": "Collector – Nozzle"
+                },
+                {
+                    "key": 18761,
+                    "code": "20",
+                    "label": "Noise Suppressor"
+                },
+                {
+                    "key": 18771,
+                    "code": "30",
+                    "label": "Thrust Reverser"
+                },
+                {
+                    "key": 18781,
+                    "code": "40",
+                    "label": "Supplementary Air"
+                },
+                {
+                    "key": 18791,
+                    "code": "50",
+                    "label": "IR-Suppressor"
+                },
+                {
+                    "key": 18801,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 18811,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 18821,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 18831,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18731"
+                }
+            }
+        },
+        {
+            "key": 18841,
+            "code": "79",
+            "label": "ENGINE OIL",
+            "subatas": [
+                {
+                    "key": 18851,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 18861,
+                    "code": "10",
+                    "label": "Storage (Dry Sump)"
+                },
+                {
+                    "key": 18871,
+                    "code": "20",
+                    "label": "Distribution"
+                },
+                {
+                    "key": 18881,
+                    "code": "30",
+                    "label": "Indicating"
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18841"
+                }
+            }
+        },
+        {
+            "key": 18891,
+            "code": "80",
+            "label": "ENGINE OIL",
+            "subatas": [
+                {
+                    "key": 19011,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 19021,
+                    "code": "10",
+                    "label": "Cranking"
+                },
+                {
+                    "key": 19031,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 19041,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 18901,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 19051,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 19061,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 19071,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 19081,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 19091,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18891"
+                }
+            }
+        },
+        {
+            "key": 18911,
+            "code": "81",
+            "label": "ENGINE OIL",
+            "subatas": [
+                {
+                    "key": 19101,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 19111,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 19121,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 18921,
+                    "code": "50",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18911"
+                }
+            }
+        },
+        {
+            "key": 18931,
+            "code": "82",
+            "label": "ENGINE OIL",
+            "subatas": [
+                {
+                    "key": 19131,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 19141,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 19151,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 19161,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 19171,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 19181,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 18941,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 19191,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 19201,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 19211,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18931"
+                }
+            }
+        },
+        {
+            "key": 18951,
+            "code": "83",
+            "label": "ENGINE OIL",
+            "subatas": [
+                {
+                    "key": 19221,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 19231,
+                    "code": "10",
+                    "label": "Drive Shaft Section"
+                },
+                {
+                    "key": 19241,
+                    "code": "20",
+                    "label": "Gear Box Section"
+                },
+                {
+                    "key": 19251,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 19261,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 19271,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 19281,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 18961,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 19291,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 19301,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18951"
+                }
+            }
+        },
+        {
+            "key": 18971,
+            "code": "84",
+            "label": "ENGINE OIL",
+            "subatas": [
+                {
+                    "key": 19311,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 19321,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 19331,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 19341,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 19351,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 19361,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 19371,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 19381,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 18981,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 19391,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18971"
+                }
+            }
+        },
+        {
+            "key": 18991,
+            "code": "85",
+            "label": "ENGINE OIL",
+            "subatas": [
+                {
+                    "key": 19401,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 19411,
+                    "code": "10",
+                    "label": "Outboard Load Systems"
+                },
+                {
+                    "key": 19421,
+                    "code": "20",
+                    "label": "EMS Equipment"
+                },
+                {
+                    "key": 19431,
+                    "code": "30",
+                    "label": "Police Equipment"
+                },
+                {
+                    "key": 19441,
+                    "code": "40",
+                    "label": "Overall Special Equipment"
+                },
+                {
+                    "key": 19451,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 19461,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 19471,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 19481,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 19001,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/18991"
+                }
+            }
+        },
+        {
+            "key": 19491,
+            "code": "86",
+            "label": "not allocated",
+            "subatas": [
+                {
+                    "key": 19501,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 19511,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 19521,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 19531,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 19541,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 19551,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 19561,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 19571,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 19581,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 19591,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/19491"
+                }
+            }
+        },
+        {
+            "key": 19601,
+            "code": "87",
+            "label": "not allocated",
+            "subatas": [
+                {
+                    "key": 19611,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 19621,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 19631,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 19641,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 19651,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 19661,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 19671,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 19681,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 19691,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 19701,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/19601"
+                }
+            }
+        },
+        {
+            "key": 19711,
+            "code": "88",
+            "label": "ELECTRICAL HARNESS AND INSTALLATION",
+            "subatas": [
+                {
+                    "key": 19721,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 19731,
+                    "code": "10",
+                    "label": "Front Fuselage"
+                },
+                {
+                    "key": 19741,
+                    "code": "20",
+                    "label": "Middle Fuselage"
+                },
+                {
+                    "key": 19751,
+                    "code": "30",
+                    "label": "Upper Deck"
+                },
+                {
+                    "key": 19761,
+                    "code": "40",
+                    "label": "Aft Fuselage ( Tail Boom)"
+                },
+                {
+                    "key": 19771,
+                    "code": "50",
+                    "label": "Rear Fuselage"
+                },
+                {
+                    "key": 19781,
+                    "code": "60",
+                    "label": "Interconnexion Boxes and Cards"
+                },
+                {
+                    "key": 19791,
+                    "code": "70",
+                    "label": "Sponsons"
+                },
+                {
+                    "key": 19801,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/19711"
+                }
+            }
+        },
+        {
+            "key": 19811,
+            "code": "89",
+            "label": "ELECTRICAL DIAGRAMS (DRAWINGS)",
+            "subatas": [
+                {
+                    "key": 19821,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 19831,
+                    "code": "10",
+                    "label": "Routing Charts Electrical & Piping"
+                },
+                {
+                    "key": 19841,
+                    "code": "20",
+                    "label": "Common Electrical Installation"
+                },
+                {
+                    "key": 19851,
+                    "code": "30",
+                    "label": "Equipments Lists"
+                },
+                {
+                    "key": 19861,
+                    "code": "40",
+                    "label": "Hook-up Lists"
+                },
+                {
+                    "key": 19871,
+                    "code": "50",
+                    "label": "Wire Lists"
+                },
+                {
+                    "key": 19881,
+                    "code": "60",
+                    "label": "List of Computerized Drawings"
+                },
+                {
+                    "key": 19891,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 19901,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 19911,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/19811"
+                }
+            }
+        },
+        {
+            "key": 19921,
+            "code": "90",
+            "label": "not allocated",
+            "subatas": [
+                {
+                    "key": 19931,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 19941,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 19951,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 19961,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 19971,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 19981,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 19991,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 20001,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 20011,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 20021,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/19921"
+                }
+            }
+        },
+        {
+            "key": 20031,
+            "code": "91",
+            "label": "not allocated",
+            "subatas": [
+                {
+                    "key": 20041,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 20051,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 20061,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 20071,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 20081,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 20091,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 20101,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 20111,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 20121,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 20131,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/20031"
+                }
+            }
+        },
+        {
+            "key": 20141,
+            "code": "92",
+            "label": "RADAR",
+            "subatas": [
+                {
+                    "key": 20151,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 20161,
+                    "code": "10",
+                    "label": "Frequency Generation"
+                },
+                {
+                    "key": 20171,
+                    "code": "20",
+                    "label": "Mission Tactical Software"
+                },
+                {
+                    "key": 20181,
+                    "code": "30",
+                    "label": "Reception"
+                },
+                {
+                    "key": 20191,
+                    "code": "40",
+                    "label": "Processing"
+                },
+                {
+                    "key": 20201,
+                    "code": "50",
+                    "label": "Beam control"
+                },
+                {
+                    "key": 20211,
+                    "code": "60",
+                    "label": "Tactical Symbol Generator"
+                },
+                {
+                    "key": 20221,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 20231,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 20241,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/20141"
+                }
+            }
+        },
+        {
+            "key": 20251,
+            "code": "93",
+            "label": "SURVEILLANCE",
+            "subatas": [
+                {
+                    "key": 20261,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 20271,
+                    "code": "10",
+                    "label": "Pilot Vision System (PVS, e.g. HMS/D)"
+                },
+                {
+                    "key": 20281,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 20291,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 20301,
+                    "code": "40",
+                    "label": "Night Vision Systems (NVG)"
+                },
+                {
+                    "key": 20311,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 20321,
+                    "code": "60",
+                    "label": "Forward Looking Infrared (FLIR)"
+                },
+                {
+                    "key": 20331,
+                    "code": "70",
+                    "label": "Surveillance Radar (Civil, else 92-xx)"
+                },
+                {
+                    "key": 20341,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 20351,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/20251"
+                }
+            }
+        },
+        {
+            "key": 20361,
+            "code": "94",
+            "label": "WEAPONS SYSTEM",
+            "subatas": [
+                {
+                    "key": 20371,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 20381,
+                    "code": "10",
+                    "label": "Weapon Release"
+                },
+                {
+                    "key": 20391,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 20401,
+                    "code": "30",
+                    "label": "Weapon Suspension"
+                },
+                {
+                    "key": 20411,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 20421,
+                    "code": "50",
+                    "label": "Gunnery"
+                },
+                {
+                    "key": 20431,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 20441,
+                    "code": "70",
+                    "label": "Weapons Control"
+                },
+                {
+                    "key": 20451,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 20461,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/20361"
+                }
+            }
+        },
+        {
+            "key": 20471,
+            "code": "95",
+            "label": "not allocated",
+            "subatas": [
+                {
+                    "key": 20481,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 20491,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 20501,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 20511,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 20521,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 20531,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 20541,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 20551,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 20561,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 20571,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/20471"
+                }
+            }
+        },
+        {
+            "key": 20581,
+            "code": "96",
+            "label": "not allocated",
+            "subatas": [
+                {
+                    "key": 20591,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 20601,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 20611,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 20621,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 20631,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 20641,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 20651,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 20661,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 20671,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 20681,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/20581"
+                }
+            }
+        },
+        {
+            "key": 20691,
+            "code": "97",
+            "label": "IMAGE RECORDING",
+            "subatas": [
+                {
+                    "key": 20701,
+                    "code": "00",
+                    "label": "General"
+                },
+                {
+                    "key": 20711,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 20721,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 20731,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 20741,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 20751,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 20761,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 20771,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 20781,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 20791,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/20691"
+                }
+            }
+        },
+        {
+            "key": 20801,
+            "code": "98",
+            "label": "METEOROLOGICAL AND ATMOSPHERIC RESEARCH",
+            "subatas": [
+                {
+                    "key": 20811,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 20821,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 20831,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 20841,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 20851,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 20861,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 20871,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 20881,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 20891,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 20901,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/20801"
+                }
+            }
+        },
+        {
+            "key": 20911,
+            "code": "99",
+            "label": "not allocated",
+            "subatas": [
+                {
+                    "key": 20921,
+                    "code": "00",
+                    "label": ""
+                },
+                {
+                    "key": 20931,
+                    "code": "10",
+                    "label": ""
+                },
+                {
+                    "key": 20941,
+                    "code": "20",
+                    "label": ""
+                },
+                {
+                    "key": 20951,
+                    "code": "30",
+                    "label": ""
+                },
+                {
+                    "key": 20961,
+                    "code": "40",
+                    "label": ""
+                },
+                {
+                    "key": 20971,
+                    "code": "50",
+                    "label": ""
+                },
+                {
+                    "key": 20981,
+                    "code": "60",
+                    "label": ""
+                },
+                {
+                    "key": 20991,
+                    "code": "70",
+                    "label": ""
+                },
+                {
+                    "key": 21001,
+                    "code": "80",
+                    "label": ""
+                },
+                {
+                    "key": 21011,
+                    "code": "90",
+                    "label": ""
+                }
+            ],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/20911"
+                }
+            }
+        },
+        {
+            "key": 400001,
+            "code": "REF 1",
+            "label": "ATA code 1",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/400001"
+                }
+            }
+        },
+        {
+            "key": 400010,
+            "code": "REF 10",
+            "label": "ATA code 10",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/400010"
+                }
+            }
+        },
+        {
+            "key": 400011,
+            "code": "REF 11",
+            "label": "ATA code 11",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/400011"
+                }
+            }
+        },
+        {
+            "key": 400002,
+            "code": "REF 2",
+            "label": "ATA code 2",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/400002"
+                }
+            }
+        },
+        {
+            "key": 400003,
+            "code": "REF 3",
+            "label": "ATA code 3",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/400003"
+                }
+            }
+        },
+        {
+            "key": 400004,
+            "code": "REF 4",
+            "label": "ATA code 4",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/400004"
+                }
+            }
+        },
+        {
+            "key": 400005,
+            "code": "REF 5",
+            "label": "ATA code 5",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/400005"
+                }
+            }
+        },
+        {
+            "key": 400006,
+            "code": "REF 6",
+            "label": "ATA code 6",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/400006"
+                }
+            }
+        },
+        {
+            "key": 400007,
+            "code": "REF 7",
+            "label": "ATA code 7",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/400007"
+                }
+            }
+        },
+        {
+            "key": 400008,
+            "code": "REF 8",
+            "label": "ATA code 8",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/400008"
+                }
+            }
+        },
+        {
+            "key": 400009,
+            "code": "REF 9",
+            "label": "ATA code 9",
+            "subatas": [],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/atas/400009"
+                }
+            }
+        }
+    ]
+}}

@@ -1,0 +1,45 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/{key}/parts"
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "taskParts": [
+            {
+                "key": 1,
+                "manufacturerPartNumber": "Manufacturer Part Number 1",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/1/parts"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "manufacturerPartNumber": "Manufacturer Part Number 2",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/1/parts"
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "manufacturerPartNumber": "Manufacturer Part Number 3",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/2/parts"
+                    }
+                }
+            }
+        ]
+    }
+}

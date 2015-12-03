@@ -1,0 +1,36 @@
+$animation-view-enter: fadeIn;
+$animation-notification-enter: bounceIn;
+$animation-notification-leave: fadeOut;
+$animation-modal-enter: bounceIn;
+$animation-modal-leave: bounceOut;
+
+$animation-time-enter: 1.0s;
+$animation-time-leave: 1.0s;
+
+
+div[ui-view].ng-enter {
+  -webkit-animation: $animation-view-enter $animation-time-enter;
+  animation: $animation-view-enter $animation-time-enter;
+}
+
+
+div#app-notification > div.alert.alert.ng-enter{
+  -webkit-animation: $animation-notification-enter $animation-time-enter;
+  animation: $animation-notification-enter $animation-time-enter;
+}
+
+div#app-notification > div.alert.alert.ng-leave{
+  -webkit-animation: $animation-notification-leave $animation-time-leave;
+  animation: $animation-notification-leave $animation-time-leave;
+}
+
+.modal.am-fade {
+  &.ng-enter {
+      -webkit-animation: $animation-modal-enter $animation-time-enter;
+      animation: $animation-modal-enter $animation-time-enter;
+  }
+  &.ng-leave {
+      -webkit-animation: $animation-modal-leave $animation-time-leave;
+      animation: $animation-modal-leave $animation-time-leave;
+  }
+}

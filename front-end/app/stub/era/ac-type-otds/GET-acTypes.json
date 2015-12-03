@@ -1,0 +1,92 @@
+{
+  "_links": {
+    "self": {
+      "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/actypesotds"
+    },
+    "efact:filter": {
+      "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/actypesotds{?q,status,acsn,company_key,company_name}",
+      "templated": true
+    },
+    "curies": [
+      {
+        "href": "http://localhost:8080/efactory/{rel}",
+        "name": "efact",
+        "templated": true
+      }
+    ]
+  },
+  "_embedded": {
+    "acTypeOtdss": [
+        {
+            "key": 1,
+            "name": "AS332",
+            "versions": [{
+                "id": 1,
+                "label": "VERSION1"
+            },{
+                "id": 2,
+                "label": "VERSION2"
+            },{
+                "id": 3,
+                "label": "VERSION3"
+            },{
+                "id": 4,
+                "label": "VERSION4"
+            }],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/actypesotds/1"
+                }
+            }
+        },
+        {
+            "key": 2,
+            "name": "AS339",
+            "versions": [{
+                "id": 1,
+                "label": "VERSION1"
+            },{
+                "id": 2,
+                "label": "VERSION2"
+            },{
+                "id": 3,
+                "label": "VERSION3"
+            }],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/actypesotds/2"
+                }
+            }
+        },
+        {
+            "key": 3,
+            "name": "AS330",
+            "versions": [{
+                "id": 1,
+                "label": "VERSION1"
+            },{
+                "id": 2,
+                "label": "VERSION2"
+            }],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/actypesotds/3"
+                }
+            }
+        },
+        {
+            "key": 4,
+            "name": "AS350",
+            "versions": [{
+                "id": 4,
+                "label": "VERSION4"
+            }],
+            "_links": {
+                "self": {
+                    "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/actypesotds/4"
+                }
+            }
+        }
+    ]
+  }
+}

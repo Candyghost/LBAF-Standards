@@ -1,0 +1,274 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "findingCodes": [
+            {
+                "key": 15,
+                "name": "Alarm / Warning",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/15"
+                    }
+                }
+            },
+            {
+                "key": 16,
+                "name": "Arcing",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/16"
+                    }
+                }
+            },
+            {
+                "key": 17,
+                "name": "Balancing",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/17"
+                    }
+                }
+            },
+            {
+                "key": 18,
+                "name": "Blistered",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/18"
+                    }
+                }
+            },
+            {
+                "key": 19,
+                "name": "Blocked",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/19"
+                    }
+                }
+            },
+            {
+                "key": 20,
+                "name": "Brinelling",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/20"
+                    }
+                }
+            },
+            {
+                "key": 21,
+                "name": "Burned",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/21"
+                    }
+                }
+            },
+            {
+                "key": 22,
+                "name": "Burst",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/22"
+                    }
+                }
+            },
+            {
+                "key": 23,
+                "name": "Chafing",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/23"
+                    }
+                }
+            },
+            {
+                "key": 24,
+                "name": "Chipped",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/24"
+                    }
+                }
+            },
+            {
+                "key": 25,
+                "name": "Clogged",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/25"
+                    }
+                }
+            },
+            {
+                "key": 26,
+                "name": "Corroded",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/26"
+                    }
+                }
+            },
+            {
+                "key": 27,
+                "name": "Cracked",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/27"
+                    }
+                }
+            },
+            {
+                "key": 28,
+                "name": "Cut",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/28"
+                    }
+                }
+            },
+            {
+                "key": 29,
+                "name": "Bebonded",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/29"
+                    }
+                }
+            },
+            {
+                "key": 30,
+                "name": "Deliminated",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/30"
+                    }
+                }
+            },
+            {
+                "key": 31,
+                "name": "Distorted",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/31"
+                    }
+                }
+            },
+            {
+                "key": 32,
+                "name": "Engine power check",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/32"
+                    }
+                }
+            },
+            {
+                "key": 33,
+                "name": "FOD",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/33"
+                    }
+                }
+            },
+            {
+                "key": 34,
+                "name": "Fretting",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/34"
+                    }
+                }
+            },
+            {
+                "key": 35,
+                "name": "Pollution",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/35"
+                    }
+                }
+            },
+            {
+                "key": 36,
+                "name": "Scratched",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/36"
+                    }
+                }
+            },
+            {
+                "key": 37,
+                "name": "Seized",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/37"
+                    }
+                }
+            },
+            {
+                "key": 38,
+                "name": "Short cut",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/38"
+                    }
+                }
+            },
+            {
+                "key": 39,
+                "name": "Smoke",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/39"
+                    }
+                }
+            },
+            {
+                "key": 40,
+                "name": "Vibration",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/40"
+                    }
+                }
+            },
+            {
+                "key": 41,
+                "name": "Worn",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/41"
+                    }
+                }
+            },
+            {
+                "key": 42,
+                "name": "Dent",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/finding-codes/42"
+                    }
+                }
+            }
+        ]
+    }
+}

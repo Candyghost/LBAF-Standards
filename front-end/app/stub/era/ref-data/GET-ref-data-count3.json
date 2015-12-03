@@ -1,0 +1,62 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/refdata"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/refdata",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "ref-data": [
+            {
+                "key": 1,
+                "label": "event type code",
+                "meta": {
+                    "lastModificationDate": "1371938400000",
+                    "lastModificationAuthor": "PDurand"
+                },
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/refdata/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "label": "mmh treshold",
+                "meta": {
+                    "lastValue": "50",
+                    "lastModificationDate": "1371938520000",
+                    "lastModificationAuthor": "MDupont"
+                },
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/refdata/2"
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "label": "event type",
+                "meta": {
+                    "lastModificationDate": "1381938400000",
+                    "lastModificationAuthor": "MDupont"
+                },
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/refdata/3"
+                    }
+                }
+            }
+        ]
+    }
+}

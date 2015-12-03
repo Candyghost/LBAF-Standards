@@ -1,0 +1,107 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks"
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "tasks": [
+            {
+                "key": 1,
+                "manualKey": 1,
+                "identifier": "TASK-01",
+                "title": "Task for MSM",
+                "description": "MSM task description",
+                "type": "MSM",
+                "intervals": {
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/1/intervals/"
+                        }
+                    }
+                },
+                "margins": {
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/1/margins/"
+                        }
+                    }
+                },
+                "parts": {
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/1/parts/"
+                        }
+                    }
+                },
+                "theoTimeRecord": {
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/1/theo-time-record/"
+                        }
+                    }
+                },
+                "workcards": {
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/1/workcards/"
+                        }
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "manualKey": 2,
+                "identifier": "TASK-02",
+                "title": "Task for MRBR",
+                "description": "MRBR task description",
+                "type": "MRBR",
+                "intervals": {
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/2/intervals/"
+                        }
+                    }
+                },
+                "parts": {
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/2/parts/"
+                        }
+                    }
+                },
+                "theoTimeRecord": {
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/2/theo-time-record/"
+                        }
+                    }
+                },
+                "workcards": {
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/2/workcards/"
+                        }
+                    }
+                },
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/2"
+                    }
+                }
+            }
+        ]
+    }
+}

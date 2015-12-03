@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>myApp</title>
+
+        <!-- build:css styles/vendor.css -->
+        <link rel="stylesheet" href="bower_components/efactory-ui-chameleon/dist/css/bootstrap-theme-keycopter.css">
+        <link rel="stylesheet" href="bower_components/animate.css/animate.css">
+        <link rel="stylesheet" href="bower_components/angular-motion/dist/angular-motion.css">
+        <link rel="stylesheet" href="bower_components/angular-loading-bar/build/loading-bar.css">
+        <link rel="stylesheet" href="bower_components/select2/select2.css">
+        <link rel="stylesheet" href="bower_components/ui-select/dist/select.css">
+        <link rel="stylesheet" href="bower_components/jquery-ui/themes/base/jquery-ui.css">
+        <link rel="stylesheet" href="bower_components/efactory-datatable/dist/css/jquery.datatable.custom.css">
+        <!-- endbuild -->
+
+        <!-- build:css styles/main.css -->
+        <link rel="stylesheet" href="style.css">
+        <!-- endbuild -->
+    </head>
+    <body ng-app="appDev">
+        <div id="app-notification" class="col-xs-12 col-sm-offset-3 col-sm-4"></div>
+        <!--[if lt IE 9]>
+        <!-- build:js scripts/vendor-ie8-shim.js -->
+            <script src="bower_components/html5shiv/dist/html5shiv.js"></script>
+            <script src="bower_components/respond/dest/respond.src.js"></script>
+            <script src="bower_components/json3/lib/json3.min.js"></script>
+            <script src="bower_components/console-polyfill/index.js"></script>
+        <!-- endbuild -->
+        <![endif]-->
+
+        <!-- loading animation -->
+        <div id="loading" ng-if="!ready">
+            <p class="text-center">Loading...</p>
+            <div class="progress progress-striped active">
+                <div class="progress-bar" style="width: 100%">
+                    <span class="sr-only">Loading...</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" ui-view></div>
+
+        <!-- build:js scripts/vendor.js -->
+        <script src="bower_components/modernizr/modernizr.js"></script>
+        <script src="bower_components/yepnope/yepnope.js"></script>
+        <script src="bower_components/jquery/dist/jquery.js"></script>
+        <script src="bower_components/efactory-ui-chameleon/dist/js/bootstrap.js"></script>
+        <script src="bower_components/jquery-ui/jquery-ui.js"></script>
+        <script src="bower_components/angular/angular.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/plugins.js -->
+        <script src="bower_components/stacktrace/stacktrace.js"></script>
+        <script src="bower_components/tinymce-dist/tinymce.js"></script>
+        <script src="bower_components/tinymce-dist/plugins/textcolor/plugin.min.js"></script>
+        <script src="bower_components/tinymce-dist/themes/modern/theme.min.js"></script>
+        <script src="bower_components/tinymce-dist/plugins/link/plugin.min.js"></script>
+        <script src="bower_components/tinymce-dist/plugins/lists/plugin.min.js"></script>
+        <script src="bower_components/angular-ui-tinymce/src/tinymce.js"></script>
+        <script src="bower_components/uri.js/src/URI.js"></script>
+        <script src="bower_components/uri.js/src/URITemplate.js"></script>
+        <script src="bower_components/q/q.js"></script>
+        <script src="bower_components/hyperagent/dist/hyperagent.js"></script>
+        <script src="bower_components/angular-resource/angular-resource.js"></script>
+        <script src="bower_components/angular-strap/dist/angular-strap.js"></script>
+        <script src="bower_components/angular-strap/dist/angular-strap.tpl.js"></script>
+        <script src="bower_components/angular-mocks/angular-mocks.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="bower_components/angular-translate/angular-translate.js"></script>
+        <script src="bower_components/angular-translate-loader-url/angular-translate-loader-url.js"></script>
+        <script src="bower_components/angular-translate-loader-static-files/angular-translate-loader-static-files.js"></script>
+        <script src="bower_components/angular-translate-loader-partial/angular-translate-loader-partial.js"></script>
+        <script src="bower_components/angular-animate/angular-animate.js"></script>
+        <script src="bower_components/angular-loading-bar/build/loading-bar.js"></script>
+        <script src="bower_components/angular-sanitize/angular-sanitize.js"></script>
+        <script src="bower_components/fusion-charts/fusioncharts-xt-enterprise-plus/js/fusioncharts.js"></script>
+        <script src="bower_components/fusion-charts/fusioncharts-xt-enterprise-plus/js/fusioncharts.charts.js"></script>
+        <script src="bower_components/fusion-charts/powercharts-xt-enterprise-plus/js/fusioncharts.powercharts.js"></script>
+        <script src="bower_components/fusion-charts/fusionmaps-xt-enterprise-plus/js/fusioncharts.maps.js"></script>
+        <script src="bower_components/fusion-charts/fusionwidgets-xt-enterprise-plus/js/fusioncharts.gantt.js"></script>
+        <script src="bower_components/fusion-charts/fusionwidgets-xt-enterprise-plus/js/fusioncharts.widgets.js"></script>
+        <script src="bower_components/efactory-datatable/dist/js/jquery.dataTables.js"></script>
+        <script src="bower_components/efactory-keycopter/dist/log.js"></script>
+        <script src="bower_components/efactory-keycopter/dist/crossdomain-communication-app-keycopter.js"></script>
+        <script src="bower_components/select2/select2.js"></script>
+        <script src="bower_components/ui-select/dist/select.js"></script>
+
+        <script src="bower_components/efactory-angular-modules/app-download-file/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-hal-resource/src/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-cache/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-notification/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-security/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-dialog/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-interceptor/module-stub.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-interceptor/module-dev.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-resource/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-table/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-table/service.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-graph/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-graph/genericChart-directive.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-graph/pieChart-directive.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-graph/barChart-directive.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-graph/combiBarChart-directive.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-graph/curveChart-directive.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-graph/heatMapChart-directive.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-datepicker/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-richtext/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-i18n/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-i18n/module-stub.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-html-unsafe/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-interval/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-safequit/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-validator/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-selectgroup/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-file-export/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-file-export/excel-html-service.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-error-handling/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-truncated-text/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-check-browser/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-keycopter-api/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-action-tooltip/module.js"></script>
+        <script src="bower_components/efactory-angular-modules/app-mock/module.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/main.js -->
+        <script src="src/app.js"></script>
+        <script src="src/appStub.js"></script>
+		<script src="src/appDev.js"></script>
+        <script src="src/routes.js"></script>
+
+
+        <script src="src/resources/service-dao.js"></script>
+        <script src="src/resources/models/me.js"></script>
+        <script src="src/resources/models/book.js"></script>
+        <script src="src/resources/models/error.js"></script>
+
+        <script src="src/main/teamcopter/module.js"></script>
+        <script src="src/main/keycopter/module.js"></script>
+
+        <script src="src/main/keycopter/content/home/controller.js"></script>
+
+        <script src="src/main/teamcopter/menu/directive.js"></script>
+        <script src="src/main/teamcopter/content/home/controller.js"></script>
+        <script src="src/main/teamcopter/content/view/controller.js"></script>
+        <script src="src/main/teamcopter/content/form/controller.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/templates.js -->
+        <!-- Keep one line empty -->
+        <!-- endbuild -->
+
+</body>
+</html>

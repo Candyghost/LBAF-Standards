@@ -1,0 +1,161 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata{format}",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "atas": [
+            {
+                "key": 100,
+                "code": 10,
+                "label": "PARKING, MOORING, STORAGE AND RETURN TO SERVICE",
+                "subatas": [
+                    {
+                        "key": 2,
+                        "code": 2,
+                        "label": "Sea Anchor (if installed)"
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata/10"
+                    }
+                }
+            },
+            {
+                "key": 16611,
+                "code": 21,
+                "label": "AIR CONDITIONING",
+                "subatas": [
+                    {
+                        "key": 5,
+                        "code": 5,
+                        "label": "Air Conditioning Systems (If installed)"
+                    },
+                    {
+                        "key": 6,
+                        "code": 6,
+                        "label": "Heating/Ventilating Distributor Valve"
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata/21"
+                    }
+                }
+            },
+            {
+                "key": 16612,
+                "code": 22,
+                "label": "AUTOMATIC FLIGHT CONTROL",
+                "subatas": [
+                    {
+                        "key": 12,
+                        "code": 12,
+                        "label": "Autopilot Norm/Turb Facility"
+                    },{
+                        "key": 13,
+                        "code": 13,
+                        "label": "Flight Director (CDV-85 or CDV-155)(If installed)"
+                    },{
+                        "key": 14,
+                        "code": 14,
+                        "label": "Navigation Database(s)(If installed)"
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata/22"
+                    }
+                }
+            },
+            {
+                "key": 33711,
+                "code": 23,
+                "label": "COMMUNICATIONS",
+                "subatas": [
+                    {
+                        "key": 20,
+                        "code": 20,
+                        "label": "Illuminated passenger advisory system (if installed)"
+                    },{
+                        "key": 21,
+                        "code": 21,
+                        "label": "Headset"
+                    },{
+                        "key": 22,
+                        "code": 22,
+                        "label": "Audio Selector Panel"
+                    },{
+                        "key": 23,
+                        "code": 23,
+                        "label": "Datalink (if installed)"
+                    },{
+                        "key": 24,
+                        "code": 24,
+                        "label": "Flight Deck Door Surveillance System (if installed)"
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata/23"
+                    }
+                }
+            },
+            {
+                "key": 500,
+                "code": 24,
+                "label": "ELECTRICAL POWER GENERATION",
+                "subatas": [
+                    {
+                        "key": 29,
+                        "code": 29,
+                        "label": "Transformer Rectifier Unit (TRU) Connect-Disconnect Indicator Lights"
+                    },{
+                        "key": 30,
+                        "code": 30,
+                        "label": "Transformers (26 Volt AC)"
+                    },{
+                        "key": 31,
+                        "code": 31,
+                        "label": "Transformer (26 Volt AC) Indicator Lights"
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata/24"
+                    }
+                }
+            },
+            {
+                "key": 600,
+                "code": 26,
+                "label": "FIRE PROTECTION",
+                "subatas": [
+                    {
+                        "key": 33,
+                        "code": 34,
+                        "label": "Baggage Bay Fire and Smoke Detectors"
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata/26"
+                    }
+                }
+            }
+        ]
+    }
+}

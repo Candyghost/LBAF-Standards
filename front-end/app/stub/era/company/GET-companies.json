@@ -1,0 +1,91 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/companies"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/companies{?q,status,contact,actype,search_deep,company_type,buah_id}",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "companies": [
+            {
+                "key": -2,
+                "name": "NOT DEFINED",
+                "acType": null,
+                "buah": {
+                    "key": -2,
+                    "buName": "NOT DEFINED"
+                },
+                "subCompanies": [
+                    {
+                        "key": -2,
+                        "name": "NOT DEFINED",
+                        "acType": null,
+                        "buah": null,
+                        "subCompanies": null
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/companies/-2"
+                    }
+                }
+            },
+            {
+                "key": 10,
+                "name": "Google",
+                "acType": null,
+                "buah": {
+                    "key": 153561,
+                    "buName": "Heli Austria GmbH"
+                },
+                "subCompanies": [
+                    {
+                        "key": 10,
+                        "name": "Google",
+                        "acType": null,
+                        "buah": null,
+                        "subCompanies": null
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/companies/10"
+                    }
+                }
+            },
+            {
+                "key": 11,
+                "name": "SQLI",
+                "acType": null,
+                "buah": {
+                    "key": 11,
+                    "buName": "BOEING"
+                },
+                "subCompanies": [
+                    {
+                        "key": 11,
+                        "name": "SQLI",
+                        "acType": null,
+                        "buah": null,
+                        "subCompanies": null
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/companies/11"
+                    }
+                }
+            }
+        ]
+    }
+}

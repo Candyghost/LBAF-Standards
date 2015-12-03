@@ -1,0 +1,97 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/samplefleets"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/samplefleets",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "sampleFleets": [
+            {
+                "key": 141,
+                "name": "Fleet sample 141",
+                "description": "Fleet description 141",
+                "tags": [],
+                "status": "Public",
+                "creator": "John Smith",
+                "creatorId": "jsmith",
+                "update": "1417392000000",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/samplefleets/141"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "name": "Fleet sample 2",
+                "description": "Fleet description 2",
+                "tags": ["tag","other tag", "and another one"],
+                "status": "Private",
+                "creator": "Jack - AdminCME",
+                "creatorId": "admin-cme",
+                "update": "1417392000000",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/samplefleets/2"
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "name": "Fleet sample 3",
+                "description": "Fleet description 3",
+                "tags": [],
+                "status": "Public",
+                "creator": "John Smith",
+                "creatorId": "jsmith",
+                "update": "1417478400000",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/samplefleets/3"
+                    }
+                }
+            },
+            {
+                "key": 4,
+                "name": "Fleet sample 4",
+                "description": "Fleet description 4",
+                "tags": [],
+                "status": "Public",
+                "creator": "John Smith",
+                "creatorId": "jsmith",
+                "update": "1417564800000",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/samplefleets/4"
+                    }
+                }
+            },
+            {
+                "key": 5,
+                "name": "Fleet sample 5",
+                "description": "Fleet description 5",
+                "tags": [],
+                "status": "Public",
+                "creator": "John Smith",
+                "creatorId": "jsmith",
+                "update": "1417392000000",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/samplefleets/5"
+                    }
+                }
+            }
+        ]
+    }
+}

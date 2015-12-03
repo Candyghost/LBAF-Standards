@@ -1,0 +1,454 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusage"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusage",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "aircraftUsages": [
+            {
+                "key": 1,
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusage/1"
+                    }
+                },
+                "from": 1400573600000,
+                "to": 1401573600000,
+                "operator": 1,
+                "age": 5,
+                "mission": "Police or Law Enforcement",
+                "subMission": "Law Enforcement",
+                "country": "FRANCE",
+                "subCountry": "Marseille",
+                "temperature": "Hot",
+                "environment": "Salt-laden atmosphere",
+                "monthlyUtilisation": 6,
+                "status": "Out of Service",
+                "fhDuringPeriod": 201,
+                "cyclesDuringPeriod": 85,
+
+                "aircraft": {
+                    "key": 1,
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/1"
+                        }
+                    },
+                    "sn": "SN1",
+                    "acType": "A/C type 1",
+                    "version": "Version 1",
+                    "acConfInfo": true,
+                    "fh": 500
+                }
+            },
+            {
+                "key": 2,
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusage/2"
+                    }
+                },
+                "from": 1401573600000,
+                "to": null,
+                "operator": 1,
+                "age": 5,
+                "mission": "Police or Law Enforcement",
+                "subMission": "Law Enforcement",
+                "country": "FRANCE",
+                "subCountry": "Marseille",
+                "temperature": "Hot",
+                "environment": "Salt-laden atmosphere",
+                "monthlyUtilisation": 6,
+                "status": "Out of Service",
+                "fhDuringPeriod": 201,
+                "cyclesDuringPeriod": 85,
+
+                "aircraft": {
+                    "key": 1,
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/1"
+                        }
+                    },
+                    "sn": "SN2",
+                    "acType": "A/C type 2",
+                    "version": "Version 2",
+                    "acConfInfo": true,
+                    "fh": 600
+                }
+            },
+            {
+                "key": 3,
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusage/3"
+                    }
+                },
+                "from": 1400573600000,
+                "to": null,
+                "operator": 2,
+                "age": 4,
+                "mission": "Police or Law Enforcement",
+                "subMission": "Law Enforcement",
+                "country": "FRANCE",
+                "subCountry": "Marseille",
+                "temperature": "Hot",
+                "environment": "Salt-laden atmosphere",
+                "monthlyUtilisation": 6,
+                "status": "Out of Service",
+                "fhDuringPeriod": 201,
+                "cyclesDuringPeriod": 85,
+
+                "aircraft": {
+                    "key": 3,
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/3"
+                        }
+                    },
+                    "sn": "SN3",
+                    "acType": "A/C type 3",
+                    "version": "Version 3",
+                    "acConfInfo": true,
+                    "fh": 600
+                }
+            },
+            {
+                "key": 4,
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusage/4"
+                    }
+                },
+                "from": 1402573600000,
+                "to": null,
+                "operator": 1,
+                "age": 5,
+                "mission": "Police or Law Enforcement",
+                "subMission": "Law Enforcement",
+                "country": "FRANCE",
+                "subCountry": "Marseille",
+                "temperature": "Hot",
+                "environment": "Salt-laden atmosphere",
+                "monthlyUtilisation": 6,
+                "status": "Out of Service",
+                "fhDuringPeriod": 201,
+                "cyclesDuringPeriod": 85,
+
+                "aircraft": {
+                    "key": 1,
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/1"
+                        }
+                    },
+                    "sn": "SN2",
+                    "acType": "A/C type 2",
+                    "version": "Version 2",
+                    "acConfInfo": true,
+                    "fh": 600
+                }
+            },
+            {
+                "key": 5,
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusage/5"
+                    }
+                },
+                "from": 1403573600000,
+                "to": null,
+                "operator": 1,
+                "age": 4,
+                "mission": "Police or Law Enforcement",
+                "subMission": "Law Enforcement",
+                "country": "FRANCE",
+                "subCountry": "Marseille",
+                "temperature": "Hot",
+                "environment": "Salt-laden atmosphere",
+                "monthlyUtilisation": 6,
+                "status": "Out of Service",
+                "fhDuringPeriod": 201,
+                "cyclesDuringPeriod": 85,
+
+                "aircraft": {
+                    "key": 1,
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/1"
+                        }
+                    },
+                    "sn": "SN2",
+                    "acType": "A/C type 2",
+                    "version": "Version 2",
+                    "acConfInfo": false,
+                    "fh": 600
+                }
+            },
+            {
+                "key": 6,
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusage/6"
+                    }
+                },
+                "from": 1400473600000,
+                "to": 1400573600000,
+                "operator": 1,
+                "age": 5,
+                "mission": "Police or Law Enforcement",
+                "subMission": "Law Enforcement",
+                "country": "FRANCE",
+                "subCountry": "Marseille",
+                "temperature": "Hot",
+                "environment": "Salt-laden atmosphere",
+                "monthlyUtilisation": 6,
+                "status": "Out of Service",
+                "fhDuringPeriod": 201,
+                "cyclesDuringPeriod": 85,
+
+                "aircraft": {
+                    "key": 1,
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/1"
+                        }
+                    },
+                    "sn": "SN2",
+                    "acType": "A/C type 2",
+                    "version": "Version 2",
+                    "acConfInfo": false,
+                    "fh": 600
+                }
+            },
+            {
+                "key": 7,
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusage/7"
+                    }
+                },
+                "from": 1401573600000,
+                "to": null,
+                "operator": 1,
+                "age": 5,
+                "mission": "Police or Law Enforcement",
+                "subMission": "Law Enforcement",
+                "country": "FRANCE",
+                "subCountry": "Marseille",
+                "temperature": "Hot",
+                "environment": "Salt-laden atmosphere",
+                "monthlyUtilisation": 6,
+                "status": "Out of Service",
+                "fhDuringPeriod": 201,
+                "cyclesDuringPeriod": 85,
+
+                "aircraft": {
+                    "key": 1,
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/1"
+                        }
+                    },
+                    "sn": "SN2",
+                    "acType": "A/C type 2",
+                    "version": "Version 2",
+                    "acConfInfo": true,
+                    "fh": 600
+                }
+            },
+            {
+                "key": 8,
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusage/8"
+                    }
+                },
+                "from": 1401573600000,
+                "to": 1402573600000,
+                "operator": 1,
+                "age": 5,
+                "mission": "Police or Law Enforcement",
+                "subMission": "Law Enforcement",
+                "country": "FRANCE",
+                "subCountry": "Marseille",
+                "temperature": "Hot",
+                "environment": "Salt-laden atmosphere",
+                "monthlyUtilisation": 6,
+                "status": "Out of Service",
+                "fhDuringPeriod": 201,
+                "cyclesDuringPeriod": 85,
+
+                "aircraft": {
+                    "key": 1,
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/1"
+                        }
+                    },
+                    "sn": "SN2",
+                    "acType": "A/C type 2",
+                    "version": "Version 2",
+                    "acConfInfo": false,
+                    "fh": 600
+                }
+            },
+            {
+                "key": 9,
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusage/9"
+                    }
+                },
+                "from": 1301573600000,
+                "to": 1401573600000,
+                "operator": 1,
+                "age": 5,
+                "mission": "Police or Law Enforcement",
+                "subMission": "Law Enforcement",
+                "country": "FRANCE",
+                "subCountry": "Marseille",
+                "temperature": "Hot",
+                "environment": "Salt-laden atmosphere",
+                "monthlyUtilisation": 6,
+                "status": "Out of Service",
+                "fhDuringPeriod": 201,
+                "cyclesDuringPeriod": 85,
+
+                "aircraft": {
+                    "key": 1,
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/1"
+                        }
+                    },
+                    "sn": "SN2",
+                    "acType": "A/C type 2",
+                    "version": "Version 2",
+                    "acConfInfo": true,
+                    "fh": 600
+                }
+            },
+            {
+                "key": 10,
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusage/10"
+                    }
+                },
+                "from": 1401500600000,
+                "to": null,
+                "operator": 1,
+                "age": 5,
+                "mission": "Police or Law Enforcement",
+                "subMission": "Law Enforcement",
+                "country": "FRANCE",
+                "subCountry": "Marseille",
+                "temperature": "Hot",
+                "environment": "Salt-laden atmosphere",
+                "monthlyUtilisation": 6,
+                "status": "Out of Service",
+                "fhDuringPeriod": 201,
+                "cyclesDuringPeriod": 85,
+
+                "aircraft": {
+                    "key": 1,
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/1"
+                        }
+                    },
+                    "sn": "SN2",
+                    "acType": "A/C type 2",
+                    "version": "Version 2",
+                    "acConfInfo": true,
+                    "fh": 600
+                }
+            },
+            {
+                "key": 11,
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusage/11"
+                    }
+                },
+                "from": 1401003600000,
+                "to": null,
+                "operator": 1,
+                "age": 5,
+                "mission": "Police or Law Enforcement",
+                "subMission": "Law Enforcement",
+                "country": "FRANCE",
+                "subCountry": "Marseille",
+                "temperature": "Hot",
+                "environment": "Salt-laden atmosphere",
+                "monthlyUtilisation": 6,
+                "status": "Out of Service",
+                "fhDuringPeriod": 201,
+                "cyclesDuringPeriod": 85,
+
+                "aircraft": {
+                    "key": 1,
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/1"
+                        }
+                    },
+                    "sn": "SN2",
+                    "acType": "A/C type 2",
+                    "version": "Version 2",
+                    "acConfInfo": true,
+                    "fh": 600
+                }
+            },
+            {
+                "key": 12,
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircraftusage/12"
+                    }
+                },
+                "from": 1400273600000,
+                "to": 1401273600000,
+                "operator": 1,
+                "age": 5,
+                "mission": "Police or Law Enforcement",
+                "subMission": "Law Enforcement",
+                "country": "FRANCE",
+                "subCountry": "Marseille",
+                "temperature": "Hot",
+                "environment": "Salt-laden atmosphere",
+                "monthlyUtilisation": 6,
+                "status": "Out of Service",
+                "fhDuringPeriod": 201,
+                "cyclesDuringPeriod": 85,
+
+                "aircraft": {
+                    "key": 1,
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/1"
+                        }
+                    },
+                    "sn": "SN2",
+                    "acType": "A/C type 2",
+                    "version": "Version 2",
+                    "acConfInfo": true,
+                    "fh": 600
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,13 @@
+{
+  "rights":[
+    "GET_ME",
+    "ACCESS_TEAMCOPTER",
+    "GET_ALL_BOOK",
+    "GET_BOOK",
+    "GET_PDF_BOOK"
+  ],
+  "roles":[
+    "CUSTOMER"
+  ],
+  "login":"customer"
+}

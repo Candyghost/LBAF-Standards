@@ -1,0 +1,10 @@
+{
+  "teamcopter.home.breadcrumb.title": "home",
+
+  "teamcopter.home.title": "Home page title For keycopter users",
+  "teamcopter.home.book.list": "List of books",
+  "teamcopter.home.book.table.column.title": "Title",
+  "teamcopter.home.book.table.column.description": "Description",
+  "teamcopter.home.book.table.column.action": "Actions",
+  "teamcopter.home.add.book": "New book"
+}

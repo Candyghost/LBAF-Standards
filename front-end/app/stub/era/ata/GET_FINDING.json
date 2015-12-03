@@ -1,0 +1,157 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata{format}",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "atas": [
+            {
+                "key": 100,
+                "code": 10,
+                "label": "PARKING, MOORING, STORAGE AND RETURN TO SERVICE",
+                "subatas": [
+                    {
+                        "key": 1,
+                        "code": 1,
+                        "label": "Equipment for making Sound Signals (if installed)"
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata/10"
+                    }
+                }
+            },
+            {
+                "key": 200,
+                "code": 21,
+                "label": "AIR CONDITIONING",
+                "subatas": [
+                    {
+                        "key": 3,
+                        "code": 3,
+                        "label": "Main fan (Main, Cockpit)"
+                    },
+                    {
+                        "key": 4,
+                        "code": 4,
+                        "label": "Heater (Bleed Air P2 Heat)"
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata/21"
+                    }
+                }
+            },
+            {
+                "key": 300,
+                "code": 22,
+                "label": "AUTOMATIC FLIGHT CONTROL",
+                "subatas": [
+                    {
+                        "key": 7,
+                        "code": 7,
+                        "label": "Automatic Flight System (AFCS)"
+                    },{
+                        "key": 8,
+                        "code": 8,
+                        "label": "Auto Trim System"
+                    },{
+                        "key": 9,
+                        "code": 9,
+                        "label": "Collective Link"
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata/22"
+                    }
+                }
+            },
+            {
+                "key": 400,
+                "code": 23,
+                "label": "COMMUNICATIONS",
+                "subatas": [
+                    {
+                        "key": 15,
+                        "code": 15,
+                        "label": "Radio-communication transmitters and receivers"
+                    },{
+                        "key": 16,
+                        "code": 16,
+                        "label": "Flight crew intercom system"
+                    },{
+                        "key": 17,
+                        "code": 17,
+                        "label": "Public Address System (if installed)"
+                    },{
+                        "key": 18,
+                        "code": 18,
+                        "label": "Flight attendant interphone system (if installed)"
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata/23"
+                    }
+                }
+            },
+            {
+                "key": 500,
+                "code": 24,
+                "label": "ELECTRICAL POWER GENERATION",
+                "subatas": [
+                    {
+                        "key": 25,
+                        "code": 25,
+                        "label": "Alternator"
+                    },{
+                        "key": 26,
+                        "code": 26,
+                        "label": "Alternator caution lights (ALT1 - ALT2)"
+                    },{
+                        "key": 27,
+                        "code": 27,
+                        "label": "AC Volt/Amp dual indicator"
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata/24"
+                    }
+                }
+            },
+            {
+                "key": 600,
+                "code": 26,
+                "label": "FIRE PROTECTION",
+                "subatas": [
+                    {
+                        "key": 31,
+                        "code": 32,
+                        "label": "Portable fire extinguisher"
+                    }
+                ],
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/ata/26"
+                    }
+                }
+            }
+        ]
+    }
+}

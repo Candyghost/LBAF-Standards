@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:javaee="http://java.sun.com/xml/ns/javaee"
+	xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd"
+	version="2.4">
+	<display-name>myApp</display-name>
+
+	<!-- definition des fichiers de configuration Spring -->
+	<context-param>
+		<param-name>contextConfigLocation</param-name>
+		<param-value>classpath:spring/application-context.xml</param-value>
+	</context-param>
+	<context-param>
+		<param-name>log4jExposeWebAppRoot</param-name>
+		<param-value>false</param-value>
+	</context-param>
+
+	<context-param>
+		<param-name>spring.profiles.active</param-name>
+		<param-value>cors,tomcat</param-value>
+	</context-param>
+
+	<listener>
+		<listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+	</listener>
+
+	<servlet>
+		<servlet-name>springMVCServlet</servlet-name>
+		<servlet-class>org.springframework.web.servlet.DispatcherServlet</servlet-class>
+		<init-param>
+			<param-name>contextConfigLocation</param-name>
+			<param-value>classpath:spring/servlet-context.xml, classpath:spring/persistence-context.xml</param-value>
+		</init-param>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>springMVCServlet</servlet-name>
+		<url-pattern>/rest-api/*</url-pattern>
+	</servlet-mapping>
+
+	<!-- Servlet test application status -->
+	<servlet>
+		<servlet-name>Status Servlet</servlet-name>
+		<servlet-class>corp.airbus.helicopters.myApp.status.StatusServlet</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping id="statusServlet">
+		<servlet-name>Status Servlet</servlet-name>
+		<url-pattern>/dynamic/healthcheck.jsp</url-pattern>
+	</servlet-mapping>
+
+	<!-- CORS filter -->
+	<filter>
+		<filter-name>corsFilter</filter-name>
+		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>corsFilter</filter-name>
+		<url-pattern>/rest-api/*</url-pattern>
+	</filter-mapping>
+
+	<!-- HTTP Filter -->
+	<filter>
+		<filter-name>httpFilter</filter-name>
+		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+	</filter>
+	<filter-mapping>
+		<filter-name>httpFilter</filter-name>
+		<url-pattern>/rest-api/*</url-pattern>
+	</filter-mapping>
+
+	<!-- Spring security entry point -->
+	<filter>
+		<filter-name>springSecurityFilterChain</filter-name>
+		<filter-class>org.springframework.web.filter.DelegatingFilterProxy</filter-class>
+	</filter>
+
+	<filter-mapping>
+		<filter-name>springSecurityFilterChain</filter-name>
+		<url-pattern>/rest-api/*</url-pattern>
+	</filter-mapping>
+	
+	<security-constraint>>
+	<!-- List of protected pages -->
+	<web-resource-collection>
+		<web-resource-name>Secured Application</web-resource-name>
+		<url-pattern>/*</url-pattern>
+	</web-resource-collection>
+	<!-- User roles -->
+	<auth-constraint>
+		<role-name>*</role-name>
+	</auth-constraint>
+</security-constraint>
+
+	<!-- Used Roles within Application -->
+	<security-role>
+		<description>Retrieve Users Data</description>
+		<role-name>GET_ME</role-name>
+	</security-role>
+	<security-role>
+		<description>Retrieve list of books</description>
+		<role-name>GET_ALL_BOOK</role-name>
+	</security-role>
+	<security-role>
+		<description>Generate PDF</description>
+		<role-name>GET_PDF_BOOK</role-name>
+	</security-role>
+	<security-role>
+		<description>Create Book entry</description>
+		<role-name>CREATE_BOOK</role-name>
+	</security-role>
+	<security-role>
+		<description>Delete a book entry</description>
+		<role-name>DELETE_BOOK</role-name>
+	</security-role>
+	<security-role>
+		<description>Display Keycopter pages</description>
+		<role-name>ACCESS_KEYCOPTER</role-name>
+	</security-role>
+	<security-role>
+		<description>Display Teamcopter pages</description>
+		<role-name>ACCESS_TEAMCOPTER</role-name>
+	</security-role>
+	
+	<security-role-ref>
+		<role-name>GET_ME</role-name>
+		<role-link>g-eFactory-AppLBAFvmlwa001</role-link>
+	</security-role-ref>
+		<security-role-ref>
+		<role-name>GET_ALL_BOOK</role-name>
+		<role-link>g-eFactory-AppLBAFvmlwa001</role-link>
+	</security-role-ref>
+		<security-role-ref>
+		<role-name>GET_PDF_BOOK</role-name>
+		<role-link>g-eFactory-AppLBAFvmlwa001</role-link>
+	</security-role-ref>
+		<security-role-ref>
+		<role-name>CREATE_BOOK</role-name>
+		<role-link>g-eFactory-AppLBAFvmlwa001</role-link>
+	</security-role-ref>
+		<security-role-ref>
+		<role-name>DELETE_BOOK</role-name>
+		<role-link>g-eFactory-AppLBAFvmlwa001</role-link>
+	</security-role-ref>
+		<security-role-ref>
+		<role-name>ACCESS_KEYCOPTER</role-name>
+		<role-link>g-eFactory-AppLBAFvmlwa001</role-link>
+	</security-role-ref>
+		<security-role-ref>
+		<role-name>GET_ME</role-name>
+		<role-link>ACCESS_TEAMCOPTER</role-link>
+	</security-role-ref>
+	<login-config>
+		<auth-method>SPNEGO</auth-method>
+		<realm-name>Tomcat Kerberos Test Application</realm-name>
+	</login-config>
+</web-app>

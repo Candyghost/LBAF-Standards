@@ -1,0 +1,18 @@
+#loading{
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  right: 30%;
+}
+
+.text-bold{
+  font-weight: bold;
+}
+
+table.data-table td div.actions-btns {
+  display: inline-flex;
+
+  a {
+    margin: 2px;
+  }
+}

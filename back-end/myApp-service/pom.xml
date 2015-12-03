@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>corp.airbus.helicopters.efactory.myApp</groupId>
+		<artifactId>myApp-back-parent</artifactId>
+		<version>0.0.1-SNAPSHOT</version>
+		<relativePath>../myApp-parent</relativePath>
+	</parent>
+	<artifactId>myApp-service</artifactId>
+	<packaging>jar</packaging>
+	<name>Airbus Helicopters - eFactory - myApp - Backend - Service</name>
+	<developers>
+		<developer>
+			<name>Damien Guérin</name>
+			<email>dguerin@sqli.com</email>
+		</developer>
+		<developer>
+			<name>Robin Coma Delperier</name>
+			<email>rcomadelperier@sqli.com</email>
+		</developer>
+	</developers>
+	<dependencies>
+
+		<dependency>
+			<groupId>corp.airbus.helicopters.efactory.commons</groupId>
+			<artifactId>efactory-commons-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>myApp-data</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>myApp-data</artifactId>
+			<version>${project.version}</version>
+			<type>test-jar</type>
+			<scope>test</scope>
+		</dependency>
+		
+		<!-- XDocReport -->
+		<dependency>
+			<groupId>fr.opensagres.xdocreport</groupId>
+			<artifactId>fr.opensagres.xdocreport.core</artifactId>
+			<version>${x-doc-report.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>fr.opensagres.xdocreport</groupId>
+			<artifactId>fr.opensagres.xdocreport.document.docx</artifactId>
+			<version>${x-doc-report.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>fr.opensagres.xdocreport</groupId>
+			<artifactId>fr.opensagres.xdocreport.template.velocity</artifactId>
+			<version>${x-doc-report.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>fr.opensagres.xdocreport</groupId>
+			<artifactId>fr.opensagres.xdocreport.converter.docx.xwpf</artifactId>
+			<version>${x-doc-report.version}</version>
+		</dependency>
+
+	</dependencies>
+</project>

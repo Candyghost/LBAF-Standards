@@ -1,0 +1,72 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/{key}/workcards"
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "taskWorkcards": [
+            {
+                "key": 1,
+                "workCardno": "workCardno 1",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/1/workcards"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "workCardno": "workCardno 2",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/1/workcards"
+                    }
+                }
+            }
+            ,{
+                "key": 3,
+                "workCardno": "workCardno 3",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/1/workcards"
+                    }
+                }
+            },
+            {
+                "key": 4,
+                "workCardno": "workCardno 4",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/1/workcards"
+                    }
+                }
+            },
+            {
+                "key": 5,
+                "workCardno": "workCardno 5",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/2/workcards"
+                    }
+                }
+            },
+            {
+                "key": 6,
+                "workCardno": "workCardno 6",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/tasks/2/workcards"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,31 @@
+<h1>{{'teamcopter.form.title' | translate}}</h1>
+
+<form novalidate ng-submit="submitBookForm()" name="bookForm">
+
+    <div class="form-group">
+        <label for="title" class="col-xs-12 control-label">{{'teamcopter.form.field.title' | translate}}</label>
+        <div class="col-xs-12">
+            <input ng-model="book.title" type="text" class="form-control" id="title" placeholder="{{'teamcopter.form.field.title.placeholder' | translate}}"/>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <label for="description" class="col-xs-12 control-label">{{'teamcopter.form.field.description' | translate}}</label>
+        <div class="col-xs-12">
+            <textarea ui-tinymce ng-model="book.description" type="text" class="form-control" id="description"
+                      placeholder="{{'teamcopter.form.field.description.placeholder' | translate}}">
+            </textarea>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <a ui-sref="teamcopter-home" class="btn btn-primary">
+            <span class="icon icon-undo"></span>
+        </a>
+        <button class="btn btn-primary pull-right" type="submit">
+            <span class="icon icon-submit"></span>
+            {{'teamcopter.form.field.submit' | translate}}
+        </button>
+    </div>
+
+</form>

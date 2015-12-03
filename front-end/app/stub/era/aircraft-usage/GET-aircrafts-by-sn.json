@@ -1,0 +1,52 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "aircraftUsages": [
+            {
+                "from": 1400573600000,
+                "to": 1401573600000,
+                "operator": 1,
+                "age": 5,
+                "mission": "Police or Law Enforcement",
+                "subMission": "Law Enforcement",
+                "country": "FRANCE",
+                "subCountry": "Marseille",
+                "temperature": "Hot",
+                "environment": "Salt-laden atmosphere",
+                "monthlyUtilisation": 6,
+                "status": "Out of Service",
+                "fhDuringPeriod": 201,
+                "cyclesDuringPeriod": 85,
+
+                "aircraft": {
+                    "key": 1,
+                    "_links": {
+                        "self": {
+                            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/aircrafts/1"
+                        }
+                    },
+                    "sn": "1884",
+                    "acType": "SA 316",
+                    "version": "Version 1",
+                    "acConfInfo": true,
+                    "fh": 500
+                }
+            }
+        ]
+    }
+}

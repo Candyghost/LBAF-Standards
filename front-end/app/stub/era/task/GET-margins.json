@@ -1,0 +1,39 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/task/1/margins"
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "taskMargins": [
+            {
+                "key": 1,
+                "intervalMarginValue": 20,
+                "intervalMarginUnit": "FH",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/task/1/margins/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "manualKey": 2,
+                "intervalMarginValue": 5,
+                "intervalMarginUnit": "calendar month",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/task/1/margins/2"
+                    }
+                }
+            }
+        ]
+    }
+}

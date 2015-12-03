@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>corp.airbus.helicopters.efactory.myApp</groupId>
+	<version>0.0.1-SNAPSHOT</version>
+	<artifactId>myApp-war</artifactId>
+	<packaging>pom</packaging>
+	<name>Eurocopter - eFactory - Front war myApp</name>
+
+	<profiles>
+		<profile>
+			<id>package</id>
+			<activation>
+				<activeByDefault>true</activeByDefault>
+			</activation>
+			<properties>
+				<gulp_target>dist:production</gulp_target>
+			</properties>
+			<build>
+				<pluginManagement>
+					<plugins>
+						<plugin>
+							<groupId>org.eclipse.m2e</groupId>
+							<artifactId>lifecycle-mapping</artifactId>
+							<version>1.0.0</version>
+							<configuration>
+								<lifecycleMappingMetadata>
+									<pluginExecutions>
+										<pluginExecution>
+											<pluginExecutionFilter>
+												<groupId>org.apache.maven.plugins</groupId>
+												<artifactId>maven-antrun-plugin</artifactId>
+												<versionRange>1.7</versionRange>
+												<goals>
+													<goal>run</goal>
+												</goals>
+											</pluginExecutionFilter>
+											<action>
+												<ignore />
+											</action>
+										</pluginExecution>
+									</pluginExecutions>
+								</lifecycleMappingMetadata>
+							</configuration>
+						</plugin>
+					</plugins>
+				</pluginManagement>
+				<plugins>
+					<plugin>
+						<artifactId>maven-antrun-plugin</artifactId>
+						<version>1.7</version>
+						<executions>
+							<execution>
+								<phase>generate-sources</phase>
+								<configuration>
+									<target name="building">
+										<echo>
+											<!-- NPM INSTALL -->
+										</echo>
+										<exec executable="cmd" dir="${project.basedir}" osfamily="windows"
+											failonerror="true">
+											<arg line="/c npm config set color false" />
+										</exec>
+										<exec executable="bash" dir="${project.basedir}"
+											osfamily="unix" failonerror="true">
+											<arg line="-c 'npm config set color false'" />
+										</exec>
+										<exec executable="cmd" dir="${project.basedir}" osfamily="windows"
+											failonerror="true">
+											<arg line="/c npm install" />
+										</exec>
+										<exec executable="bash" dir="${project.basedir}"
+											osfamily="unix" failonerror="true">
+											<arg line="-c 'npm install'" />
+										</exec>
+										<echo>
+											<!-- BOWER -->
+										</echo>
+										<exec executable="cmd" dir="${project.basedir}"
+											failonerror="true" osfamily="windows">
+											<arg line="/c bower cache clean --no-color" />
+										</exec>
+										<exec executable="bash" dir="${project.basedir}"
+											failonerror="true" osfamily="unix">
+											<arg line="-c 'bower cache clean --no-color'" />
+										</exec>
+										<exec executable="cmd" dir="${project.basedir}"
+											failonerror="true" osfamily="windows">
+											<arg line="/c bower install --no-color" />
+										</exec>
+										<exec executable="bash" dir="${project.basedir}"
+											failonerror="true" osfamily="unix">
+											<arg line="-c 'bower install --no-color'" />
+										</exec>
+										<echo>
+											<!-- GULP -->
+										</echo>
+										<exec executable="cmd" failonerror="true" dir="${project.basedir}"
+											osfamily="windows" resultproperty="cmdresult">
+											<arg line="/c gulp ${gulp_target}" />
+										</exec>
+										<exec executable="bash" failonerror="true" dir="${project.basedir}"
+											osfamily="unix" resultproperty="cmdresult">
+											<arg line="-c 'gulp ${gulp_target}'" />
+										</exec>
+									</target>
+								</configuration>
+								<goals>
+									<goal>run</goal>
+								</goals>
+							</execution>
+						</executions>
+					</plugin>
+					<plugin>
+						<groupId>org.apache.maven.plugins</groupId>
+						<artifactId>maven-war-plugin</artifactId>
+						<version>2.3</version>
+						<configuration>
+							<webResources>
+								<resource>
+									<directory>dist</directory>
+								</resource>
+							</webResources>
+						</configuration>
+					</plugin>
+				</plugins>
+			</build>
+		</profile>
+	</profiles>
+</project>

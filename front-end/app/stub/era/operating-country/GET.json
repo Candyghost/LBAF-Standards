@@ -1,0 +1,121 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-country"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-country",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "operatingCountries": [
+            {
+                "key": 1,
+                "name": "Country 1",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-country/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "name": "Country 2",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-country/2"
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "name": "Country 3",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-country/3"
+                    }
+                }
+            },
+            {
+                "key": 4,
+                "name": "Country 4",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-country/4"
+                    }
+                }
+            },
+            {
+                "key": 5,
+                "name": "Country 5",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-country/5"
+                    }
+                }
+            },
+            {
+                "key": 6,
+                "name": "Country 6",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-country/6"
+                    }
+                }
+            },
+            {
+                "key": 7,
+                "name": "Country 7",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-country/7"
+                    }
+                }
+            },
+            {
+                "key": 8,
+                "name": "Country 8",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-country/8"
+                    }
+                }
+            },
+            {
+                "key": 9,
+                "name": "Country 9",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-country/9"
+                    }
+                }
+            },
+            {
+                "key": 10,
+                "name": "Country 10",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-country/10"
+                    }
+                }
+            },
+            {
+                "key": 11,
+                "name": "Country 11",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/operating-country/11"
+                    }
+                }
+            }
+        ]
+    }
+}

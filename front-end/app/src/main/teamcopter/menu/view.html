@@ -1,0 +1,46 @@
+<ul id="menu">
+    <li ng-class="{active: state.includes('teamcopter-home')}">
+        <a ui-sref="teamcopter-home">
+            {{'menu.home' | translate}}
+        </a>
+    </li>
+    <li ng-class="{active: state.includes('teamcopter-sample-fleets')}">
+        <a ui-sref="teamcopter-sample-fleets">
+            {{'menu.sample.fleets' | translate}}
+        </a>
+    </li>
+    <li ng-class="{active: state.includes('teamcopter-enrichment')}">
+        <a ui-sref="teamcopter-enrichment">
+            {{'menu.enrichment' | translate}}
+        </a>
+    </li>
+    <li ng-class="{opened: state.includes('teamcopter-maintenance-time')}">
+        <a href id="mmh">
+            {{'menu.mmh' | translate}}
+        </a>
+        <ul ng-style="state.includes('teamcopter-maintenance-time') ? {display: 'block'}: {display: 'none'}">
+            <li ng-class="{active: state.includes('teamcopter-maintenance-time')}">
+                <a ui-sref="teamcopter-maintenance-time">
+                    {{'menu.maintenance.time' | translate}}
+                </a>
+            </li>
+        </ul>
+    </li>
+    <li ng-class="{opened: state.includes('teamcopter-task-final-validity')}">
+        <a href id="mrb">
+            {{'menu.cme.living.mrb' | translate}}
+        </a>
+        <ul ng-style="state.includes('teamcopter-task-final-validity') ? {display: 'block'}: {display: 'none'}">
+            <li ng-class="{active: state.includes('teamcopter-task-final-validity')}">
+                <a ui-sref="teamcopter-task-final-validity">
+                    {{'menu.task.final.validity' | translate}}
+                </a>
+            </li>
+        </ul>
+    </li>
+    <li ng-class="{active: state.includes('teamcopter-parameters-reference-data')}">
+        <a ui-sref="teamcopter-parameters-reference-data">
+            {{'menu.parameters.reference.data' | translate}}
+        </a>
+    </li>
+</ul>

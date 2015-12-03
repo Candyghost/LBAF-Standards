@@ -1,0 +1,16 @@
+{
+  "rights":[
+    "GET_ME",
+    "ACCESS_TEAMCOPTER",
+    "GET_ALL_BOOK",
+    "GET_BOOK",
+    "GET_PDF_BOOK",
+    "CREATE_BOOK",
+    "UPDATE_BOOK",
+    "DELETE_BOOK"
+  ],
+  "roles":[
+    "ADMIN"
+  ],
+  "login":"admin"
+}

@@ -1,0 +1,39 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/task/1/intervals"
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "taskIntervals": [
+            {
+                "key": 1,
+                "intervalValue": 250,
+                "intervalUnit": "FH",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/task/1/intervals/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "manualKey": 2,
+                "intervalValue": 60,
+                "intervalUnit": "calendar month",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/task/1/intervals/2"
+                    }
+                }
+            }
+        ]
+    }
+}

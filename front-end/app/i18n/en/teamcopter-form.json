@@ -1,0 +1,8 @@
+{
+  "teamcopter.form.title": "Book edition",
+  "teamcopter.form.field.title": "Title",
+  "teamcopter.form.field.title.placeholder": "Enter a title for the book...",
+  "teamcopter.form.field.description": "Description",
+  "teamcopter.form.field.description.placeholder": "Enter a description for the book...",
+  "teamcopter.form.field.submit": "Submit"
+}

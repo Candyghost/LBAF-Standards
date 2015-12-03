@@ -1,0 +1,12 @@
+<h1>{{'teamcopter.home.title' | translate}}</h1>
+
+<a class="btn btn-primary pull-right" ui-sref="teamcopter-book-edit">
+    <span class="icon icon-plus"></span>
+    {{'teamcopter.home.add.book' | translate}}
+</a>
+
+<div app-table
+     app-table-aa-data="books"
+     app-table-options="options"
+     app-table-ao-columns="columns"
+></div>

@@ -1,0 +1,58 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/service-bulletin"
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "serviceBulletins": [
+            {
+                "key": 1,
+                "identifier": "SB 1",
+                "title": "SB title 1",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/service-bulletin/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "identifier": "SB 2",
+                "title": "SB title 2",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/service-bulletin/2"
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "identifier": "SB 3",
+                "title": "SB title 3",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/service-bulletin/3"
+                    }
+                }
+            },
+            {
+                "key": 4,
+                "identifier": "SB 4",
+                "title": "SB title 4",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/service-bulletin/4"
+                    }
+                }
+            }
+        ]
+    }
+}

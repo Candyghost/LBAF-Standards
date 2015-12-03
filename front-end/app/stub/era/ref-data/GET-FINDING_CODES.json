@@ -1,0 +1,274 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "ref-data": [
+            {
+                "key": 15,
+                "label": "Alarm / Warning",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/15"
+                    }
+                }
+            },
+            {
+                "key": 16,
+                "label": "Arcing",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/16"
+                    }
+                }
+            },
+            {
+                "key": 17,
+                "label": "Balancing",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/17"
+                    }
+                }
+            },
+            {
+                "key": 18,
+                "label": "Blistered",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/18"
+                    }
+                }
+            },
+            {
+                "key": 19,
+                "label": "Blocked",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/19"
+                    }
+                }
+            },
+            {
+                "key": 20,
+                "label": "Brinelling",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/20"
+                    }
+                }
+            },
+            {
+                "key": 21,
+                "label": "Burned",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/21"
+                    }
+                }
+            },
+            {
+                "key": 22,
+                "label": "Burst",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/22"
+                    }
+                }
+            },
+            {
+                "key": 23,
+                "label": "Chafing",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/23"
+                    }
+                }
+            },
+            {
+                "key": 24,
+                "label": "Chipped",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/24"
+                    }
+                }
+            },
+            {
+                "key": 25,
+                "label": "Clogged",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/25"
+                    }
+                }
+            },
+            {
+                "key": 26,
+                "label": "Corroded",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/26"
+                    }
+                }
+            },
+            {
+                "key": 27,
+                "label": "Cracked",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/27"
+                    }
+                }
+            },
+            {
+                "key": 28,
+                "label": "Cut",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/28"
+                    }
+                }
+            },
+            {
+                "key": 29,
+                "label": "Bebonded",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/29"
+                    }
+                }
+            },
+            {
+                "key": 30,
+                "label": "Deliminated",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/30"
+                    }
+                }
+            },
+            {
+                "key": 31,
+                "label": "Distorted",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/31"
+                    }
+                }
+            },
+            {
+                "key": 32,
+                "label": "Engine power check",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/32"
+                    }
+                }
+            },
+            {
+                "key": 33,
+                "label": "FOD",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/33"
+                    }
+                }
+            },
+            {
+                "key": 34,
+                "label": "Fretting",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/34"
+                    }
+                }
+            },
+            {
+                "key": 35,
+                "label": "Pollution",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/35"
+                    }
+                }
+            },
+            {
+                "key": 36,
+                "label": "Scratched",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/36"
+                    }
+                }
+            },
+            {
+                "key": 37,
+                "label": "Seized",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/37"
+                    }
+                }
+            },
+            {
+                "key": 38,
+                "label": "Short cut",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/38"
+                    }
+                }
+            },
+            {
+                "key": 39,
+                "label": "Smoke",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/39"
+                    }
+                }
+            },
+            {
+                "key": 40,
+                "label": "Vibration",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/40"
+                    }
+                }
+            },
+            {
+                "key": 41,
+                "label": "Worn",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/41"
+                    }
+                }
+            },
+            {
+                "key": 42,
+                "label": "Dent",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-int/efactory/rest/api/refdata/42"
+                    }
+                }
+            }
+        ]
+    }
+}

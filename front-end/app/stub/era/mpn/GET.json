@@ -1,0 +1,157 @@
+{
+    "_links": {
+        "self": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn"
+        },
+        "efact:filter": {
+            "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn{restriction}",
+            "templated": true
+        },
+        "curies": [
+            {
+                "href": "http://localhost:8080/efactory/{rel}",
+                "name": "efact",
+                "templated": true
+            }
+        ]
+    },
+    "_embedded": {
+        "mpns": [
+            {
+                "key": 1,
+                "label": "MPN1",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/1"
+                    }
+                }
+            },
+            {
+                "key": 2,
+                "label": "MPN2",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/2"
+                    }
+                }
+            },
+            {
+                "key": 3,
+                "label": "MPN3",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/3"
+                    }
+                }
+            },
+            {
+                "key": 4,
+                "label": "MPN4",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/4"
+                    }
+                }
+            },
+            {
+                "key": 5,
+                "label": "MPN5",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/5"
+                    }
+                }
+            },
+            {
+                "key": 6,
+                "label": "MPN6",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/6"
+                    }
+                }
+            },
+            {
+                "key": 7,
+                "label": "MPN7",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/7"
+                    }
+                }
+            },
+            {
+                "key": 8,
+                "label": "MPN8",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/8"
+                    }
+                }
+            },
+            {
+                "key": 9,
+                "label": "MPN9",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/9"
+                    }
+                }
+            },
+            {
+                "key": 10,
+                "label": "MPN10",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/10"
+                    }
+                }
+            },
+            {
+                "key": 11,
+                "label": "MPN11",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/11"
+                    }
+                }
+            },
+            {
+                "key": 12,
+                "label": "MPN12",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/12"
+                    }
+                }
+            },
+            {
+                "key": 13,
+                "label": "MPN13",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/13"
+                    }
+                }
+            },
+            {
+                "key": 14,
+                "label": "MPN14",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/14"
+                    }
+                }
+            },
+            {
+                "key": 15,
+                "label": "MPN15",
+                "_links": {
+                    "self": {
+                        "href": "http://10.33.31.150:50000/efactory-rest-api/efactory/rest/api/mpn/15"
+                    }
+                }
+            }
+        ]
+    }
+}
